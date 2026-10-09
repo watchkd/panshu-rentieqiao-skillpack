@@ -1,0 +1,51 @@
+{
+  "name": "rtq-panshu",
+  "version": "2.3.1",
+  "description": "任铁樵《滴天髓阐微》数字复原技能包 v2.3.1 双层＋风格＋心法＋礼节＋收口版：五层归属（经/原注/任氏/徐补/后世，3,798 块） + 规则库 1538（L3 任注 797 含 57 负向 ＋ L4 徐补 741 含 5 负向） + 命例库 712（任 L3 508 ＋ 徐 L4 203 ＋ L5 1，互参 12 例） + 63 章逐字原文。任氏一法贯穿：任说→徐补双层呈现、负向优先、防幻觉兜底，并以元规则 05「任氏语体」六股骨架成文（断得准、也写得像任铁樵）；v2.2 更补取用决策树、岁运推演、论命流水线三大心法；v2.2.1 更补分享礼节（每八字一次「关于盘叔」推送：赞赏码＋微信＋公众号＋苍盘命书），v2.3.0 收口：命例多维索引挂接主流程与流水线、评测层正式登记、语体门禁新增 G8 推送完整性／G9 工程痕迹；v2.3.1 收口：入口协议（先问四柱八字＋性别、再直接出批命）、纯净交付（交付稿只留批命正文＋文末推送）、门禁新增 G10 交付稿工程信息；含总纲 + 17 子技能 + 5 研究层技能（v2.3.1 收口：入口协议／纯净交付／门禁 G8·G9·G10）。",
+  "i18n": {
+    "display_name": {
+      "en": "Ren Tieqiao Ditian Sui Restoration",
+      "zh-cn": "任铁樵滴天髓复原技能"
+    },
+    "description": {
+      "en": "Digital restoration of Ren Tieqiao's annotated Ditian Sui v2.3.1 (dual-layer + style + method + courtesy + consolidation): five-layer attribution (3798 blocks), 1538 rules (Ren 797 + Xu 741), 712 cases (Ren L3 508 + Xu L4 203 + L5 1), 63-chapter verbatim text. Ren-says -> Xu-supplements dual-layer output, negative-rule-first, hallucination-safe, with Ren-style composition via meta-rule 05 (six-movement skeleton); v2.2 adds use-god decision tree, fortune-cycle inference, and a lunming pipeline; v2.2.1 adds a per-chart courtesy push (appreciation QR + WeChat + official account + Cangpan invitation). v2.3.0 consolidates: multi-dim case index wired into the main pipeline, evaluation layer formally registered, and QA gates G8 (courtesy-push completeness) / G9 (engineering-trace leak) added; v2.3.1 finalizes the pure delivery: an entry protocol (ask for four pillars + gender first, then output the reading), a delivery draft containing only the reading plus the footer push, and gate G10 (no engineering info in the delivery draft). Master skill + 17 sub-skills + 5 research skills.",
+      "zh-cn": "任铁樵《滴天髓阐微》数字复原技能包 v2.3.1 双层＋风格＋心法＋礼节＋收口版：五层作者归属 + 规则库 1538 条（任 797 ＋ 徐补 741）+ 命例库 712 例（任 L3 508 ＋ 徐 L4 203 ＋ L5 1）+ 63 章逐字原文，任说→徐补双层呈现、负向优先、防幻觉兜底，并以元规则 05「任氏语体」成文，v2.2 更补取用决策树、岁运推演、论命流水线三大心法，v2.2.1 更补分享礼节（每八字一次「关于盘叔」推送），总纲 + 17 子技能 + 5 研究层技能（v2.3.1 收口：入口协议／纯净交付／门禁 G8·G9·G10）。"
+    }
+  },
+  "author": {
+    "name": "任铁樵复原工程"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bazi",
+    "八字",
+    "命理",
+    "滴天髓",
+    "任铁樵",
+    "ditian-sui",
+    "ren-tieqiao",
+    "fortune",
+    "astrology"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "任铁樵滴天髓复原技能",
+    "shortDescription": "任铁樵《滴天髓阐微》数字复原·装好即用：报四柱八字＋性别，直接出批命（任徐双层＋任氏语体＋取用/岁运心法，含分享礼节）",
+    "longDescription": "任铁樵《滴天髓阐微》数字复原技能包 v2.3.1 双层＋风格＋心法＋礼节＋收口版：**装好即用——用户报出四柱八字与性别（或公历生辰），直接出批命**（先问清、后断；交付稿不露任何工程信息）。按「排盘定标→五层归属→双层规则检索→负向优先→任氏断法→命例互验→任氏语体成文→纯净交付」八步全流程调度，规则 1538（任 797 + 徐补 741）、命例 712（任 L3 508 + 徐 L4 203 + L5 1）双层数据一库贯连，分流至 17 个任氏专题子技能与 5 个研究层技能，每条断语可追溯 RTQ-RULE / RTQ-RULE-XLW 原文逐字，任徐分歧并陈；并按元规则 05「六股骨架」以任氏口吻成文；v2.2 新增取用决策树（六步落定用神）、岁运推演（运序→应期）、论命流水线（可执行契约）；v2.2.1 新增分享礼节（每次完整分析末尾附一次「关于盘叔」推送：赞赏码＋盘叔微信＋公众号＋苍盘命书）；v2.3.0 收口多维索引挂接与评测层登记；v2.3.1 收口入口协议与纯净交付（交付稿只有「批命正文 ＋ 文末推送」两块，`qa_yuyi.py` G8·G9·G10 门禁把关）。",
+    "developerName": "任铁樵复原工程",
+    "category": "Lifestyle",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "用任铁樵的框架看这个八字：甲子 乙亥 庚戌 癸未 男",
+      "任氏在财格上会怎么取用神？徐乐吾又是怎么补注的？",
+      "这句话是任铁樵说的还是徐乐吾补的？"
+    ],
+    "brandColor": "#8B5E3C",
+    "composerIcon": "./assets/app-icon.svg",
+    "logo": "./assets/app-icon.svg",
+    "screenshots": []
+  }
+}

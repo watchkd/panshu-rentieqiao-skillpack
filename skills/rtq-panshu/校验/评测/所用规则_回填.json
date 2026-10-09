@@ -1,0 +1,3508 @@
+{
+ "_meta": {
+  "method": "S1 CASE_IDS权威回填(落地)；S2语义兜底→待核清单(不硬造)",
+  "generated": "2026-10-09",
+  "note": "任氏原断与规则为同义改写,bigram相似度不可靠(实测0.04-0.06)，故117例不硬造，转人工语义核对"
+ },
+ "backfilled_S1": [
+  {
+   "CASE_ID": "RTQ-CASE-LQ-01-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-01-08；RTQ-RULE-LQ-11-05；RTQ-RULE-LQ-19-N02；RTQ-RULE-LQ25-12；RTQ-RULE-TS-07-14；RTQ-RULE-TS-24-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-02-07；RTQ-RULE-LQ-02-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-22-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-03-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-01；RTQ-RULE-LQ-03-02；RTQ-RULE-LQ-03-04；RTQ-RULE-TS-14-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-01；RTQ-RULE-LQ-05-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-03；RTQ-RULE-LQ-19-N02；RTQ-RULE-LQ25-12；RTQ-RULE-TS-02-02；RTQ-RULE-TS-24-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-01-N01；RTQ-RULE-LQ-05-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-06；RTQ-RULE-LQ-05-24；RTQ-RULE-LQ-11-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-07；RTQ-RULE-LQ-05-08；RTQ-RULE-LQ-05-25"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-05；RTQ-RULE-LQ-05-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-015",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-04；RTQ-RULE-LQ-05-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-016",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-017",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-018",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-019",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-07；RTQ-RULE-LQ-05-10；RTQ-RULE-LQ-06-17；RTQ-RULE-LQ24-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-020",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-42"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-020",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-06-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-023",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-06-17；RTQ-RULE-LQ24-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-01；RTQ-RULE-LQ-16-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-04；RTQ-RULE-LQ-16-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-16-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-12；RTQ-RULE-LQ-17-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-17-03；RTQ-RULE-TS-23-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-012",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-15-10；RTQ-RULE-LQ-17-03；RTQ-RULE-LQ-17-N02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-18-01；RTQ-RULE-LQ-18-04；RTQ-RULE-LQ-18-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-18-01；RTQ-RULE-LQ-18-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-12；RTQ-RULE-LQ-18-02；RTQ-RULE-LQ-18-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-18-03；RTQ-RULE-LQ-18-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-19-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-19-02；RTQ-RULE-LQ-19-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-21-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-21-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-22-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-22-01；RTQ-RULE-LQ-22-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-23-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-23-01；RTQ-RULE-LQ-23-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-04；RTQ-RULE-LQ24-24"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-018",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-021",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-022",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-025",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-026",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-028",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-24-12；RTQ-RULE-TS-18-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-01；RTQ-RULE-LQ25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-02；RTQ-RULE-LQ25-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-02；RTQ-RULE-LQ25-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-03；RTQ-RULE-LQ17-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-012",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-014",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-015",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-016",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-019",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-022",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-25-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-023",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ25-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-01；RTQ-RULE-LQ-26-N01；RTQ-RULE-LQ26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-012",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-022",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ26-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-024",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-13-N01；RTQ-RULE-LQ26-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-025",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ26-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ27-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ27-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ27-06；RTQ-RULE-TS-14-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-014",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ27-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-019",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ27-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-28-01；RTQ-RULE-LQ-28-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-28-01；RTQ-RULE-LQ-28-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-28-02；RTQ-RULE-LQ-28-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-28-04；RTQ-RULE-LQ28-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-28-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-07-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-07-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ25-08；RTQ-RULE-TS-08-01；RTQ-RULE-TS-08-07；RTQ-RULE-TS-18-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-08-06；RTQ-RULE-TS-08-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-06-07；RTQ-RULE-TS-09-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-13-N01；RTQ-RULE-TS-09-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-012",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-014",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-015",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-016",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-07-01；RTQ-RULE-TS-09-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-017",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-019",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-020",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-11；RTQ-RULE-TS-21-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-021",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-023",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-024",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-025",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-026",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-027",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-028",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-09-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-011",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-012",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-05-31；RTQ-RULE-LQ-05-40；RTQ-RULE-TS-10-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-014",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-015",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-016",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-017",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-018",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-019",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-10-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-020",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ28-07；RTQ-RULE-TS-10-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-07；RTQ-RULE-TS-11-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-005",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-006",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-007",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-010",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-11-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-12-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-12-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-008",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-21-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-009",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-07-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-13-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-13-02；RTQ-RULE-TS-13-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-14-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-14-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-15-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-15-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-18-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-013",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-LQ-03-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-19-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-19-01；RTQ-RULE-TS-19-02；RTQ-RULE-TS-19-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-19-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-19-01；RTQ-RULE-TS-19-02；RTQ-RULE-TS-19-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-19-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-19-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-19-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-19-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-20-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-20-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-20-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-20-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-20-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-20-02；RTQ-RULE-TS-20-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-23-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-23-01；RTQ-RULE-TS-23-02；RTQ-RULE-TS-23-04；RTQ-RULE-TS-23-05；RTQ-RULE-TS-23-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-23-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-23-02；RTQ-RULE-TS-23-03；RTQ-RULE-TS-23-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-23-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-23-01；RTQ-RULE-TS-23-03；RTQ-RULE-TS-23-04；RTQ-RULE-TS-23-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-25-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-25-01；RTQ-RULE-TS-25-03；RTQ-RULE-TS-25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-25-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-25-01；RTQ-RULE-TS-25-02；RTQ-RULE-TS-25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-25-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-25-02；RTQ-RULE-TS-25-03；RTQ-RULE-TS-25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-26-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-26-01；RTQ-RULE-TS-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-26-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-26-01；RTQ-RULE-TS-26-02；RTQ-RULE-TS-26-03；RTQ-RULE-TS-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-26-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-26-03；RTQ-RULE-TS-26-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-27-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-27-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-27-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-27-02；RTQ-RULE-TS-27-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-28-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-28-01；RTQ-RULE-TS-28-02；RTQ-RULE-TS-28-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-28-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-28-01；RTQ-RULE-TS-28-02；RTQ-RULE-TS-28-03；RTQ-RULE-TS-28-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-29-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-29-01；RTQ-RULE-TS-29-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-29-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-29-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-29-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-29-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-30-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-30-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-30-003",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-30-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-30-004",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-30-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-31-001",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-31-01；RTQ-RULE-TS-31-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-31-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-31-01；RTQ-RULE-TS-31-02；RTQ-RULE-TS-31-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-32-002",
+   "来源": "S1_CASE_IDS",
+   "所用规则": "RTQ-RULE-TS-32-01；RTQ-RULE-TS-32-02"
+  }
+ ],
+ "keep_original": [
+  {
+   "CASE_ID": "RTQ-CASE-LQ-01-001",
+   "所用规则": "RTQ-RULE-LQ-01-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-01-003",
+   "所用规则": "RTQ-RULE-LQ-01-20"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-001",
+   "所用规则": "RTQ-RULE-LQ-02-21"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-002",
+   "所用规则": "RTQ-RULE-LQ-02-22"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-004",
+   "所用规则": "RTQ-RULE-LQ-02-23"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-007",
+   "所用规则": "RTQ-RULE-LQ-02-20"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-03-001",
+   "所用规则": "RTQ-RULE-LQ-03-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-03-003",
+   "所用规则": "RTQ-RULE-LQ-03-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-03-004",
+   "所用规则": "RTQ-RULE-LQ-03-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-04-001",
+   "所用规则": "RTQ-RULE-LQ-04-20"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-04-002",
+   "所用规则": "RTQ-RULE-LQ-04-21、RTQ-RULE-LQ-04-19、RTQ-RULE-LQ-04-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-04-003",
+   "所用规则": "RTQ-RULE-LQ-04-21"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-001",
+   "所用规则": "RTQ-RULE-LQ-05-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-004",
+   "所用规则": "RTQ-RULE-LQ-05-14、RTQ-RULE-LQ-05-N01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-007",
+   "所用规则": "RTQ-RULE-LQ-05-23"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-012",
+   "所用规则": "RTQ-RULE-LQ-05-35"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-05-014",
+   "所用规则": "RTQ-RULE-LQ-05-41"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-001",
+   "所用规则": "RTQ-RULE-LQ-06-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-002",
+   "所用规则": "RTQ-RULE-LQ-06-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-003",
+   "所用规则": "RTQ-RULE-LQ-06-20"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-004",
+   "所用规则": "RTQ-RULE-LQ-06-21"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-005",
+   "所用规则": "RTQ-RULE-LQ-06-22"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-006",
+   "所用规则": "RTQ-RULE-LQ-06-23"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-007",
+   "所用规则": "RTQ-RULE-LQ-06-24"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-008",
+   "所用规则": "RTQ-RULE-LQ-06-25"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-009",
+   "所用规则": "RTQ-RULE-LQ-06-26"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-010",
+   "所用规则": "RTQ-RULE-LQ-06-27"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-011",
+   "所用规则": "RTQ-RULE-LQ-06-28"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-012",
+   "所用规则": "RTQ-RULE-LQ-06-29"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-013",
+   "所用规则": "RTQ-RULE-LQ-06-30"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-014",
+   "所用规则": "RTQ-RULE-LQ-06-31"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-015",
+   "所用规则": "RTQ-RULE-LQ-06-32"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-016",
+   "所用规则": "RTQ-RULE-LQ-06-33"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-017",
+   "所用规则": "RTQ-RULE-LQ-06-34"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-018",
+   "所用规则": "RTQ-RULE-LQ-06-36"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-019",
+   "所用规则": "RTQ-RULE-LQ-06-37"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-021",
+   "所用规则": "RTQ-RULE-LQ-06-38"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-022",
+   "所用规则": "RTQ-RULE-LQ-06-39"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-026",
+   "所用规则": "RTQ-RULE-LQ-06-35"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-027",
+   "所用规则": "RTQ-RULE-LQ-06-40"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-028",
+   "所用规则": "RTQ-RULE-LQ-06-41"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-029",
+   "所用规则": "RTQ-RULE-LQ-06-42、RTQ-RULE-LQ-06-43"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-001",
+   "所用规则": "RTQ-RULE-LQ-07-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-002",
+   "所用规则": "RTQ-RULE-LQ-07-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-003",
+   "所用规则": "RTQ-RULE-LQ-07-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-004",
+   "所用规则": "RTQ-RULE-LQ-07-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-005",
+   "所用规则": "RTQ-RULE-LQ-07-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-006",
+   "所用规则": "RTQ-RULE-LQ-07-11、RTQ-RULE-LQ-07-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-07-007",
+   "所用规则": "RTQ-RULE-LQ-07-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-08-001",
+   "所用规则": "RTQ-RULE-LQ-08-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-08-002",
+   "所用规则": "RTQ-RULE-LQ-08-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-08-003",
+   "所用规则": "RTQ-RULE-LQ-08-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-09-001",
+   "所用规则": "RTQ-RULE-LQ-09-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-09-002",
+   "所用规则": "RTQ-RULE-LQ-09-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-09-003",
+   "所用规则": "RTQ-RULE-LQ-09-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-09-004",
+   "所用规则": "RTQ-RULE-LQ-09-11、RTQ-RULE-LQ-09-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-10-001",
+   "所用规则": "RTQ-RULE-LQ-10-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-10-002",
+   "所用规则": "RTQ-RULE-LQ-10-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-10-003",
+   "所用规则": "RTQ-RULE-LQ-10-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-001",
+   "所用规则": "RTQ-RULE-LQ-11-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-002",
+   "所用规则": "RTQ-RULE-LQ-11-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-003",
+   "所用规则": "RTQ-RULE-LQ-11-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-004",
+   "所用规则": "RTQ-RULE-LQ-11-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-005",
+   "所用规则": "RTQ-RULE-LQ-11-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-11-006",
+   "所用规则": "RTQ-RULE-LQ-11-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-001",
+   "所用规则": "RTQ-RULE-LQ-12-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-002",
+   "所用规则": "RTQ-RULE-LQ-12-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-003",
+   "所用规则": "RTQ-RULE-LQ-12-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-004",
+   "所用规则": "RTQ-RULE-LQ-12-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-005",
+   "所用规则": "RTQ-RULE-LQ-12-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-006",
+   "所用规则": "RTQ-RULE-LQ-12-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-007",
+   "所用规则": "RTQ-RULE-LQ-12-16、RTQ-RULE-LQ-12-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-008",
+   "所用规则": "RTQ-RULE-LQ-12-17"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-009",
+   "所用规则": "RTQ-RULE-LQ-12-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-12-010",
+   "所用规则": "RTQ-RULE-LQ-12-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-13-001",
+   "所用规则": "RTQ-RULE-LQ-13-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-13-002",
+   "所用规则": "RTQ-RULE-LQ-13-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-13-003",
+   "所用规则": "RTQ-RULE-LQ-13-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-13-004",
+   "所用规则": "RTQ-RULE-LQ-13-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-13-005",
+   "所用规则": "RTQ-RULE-LQ-13-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-14-001",
+   "所用规则": "RTQ-RULE-LQ-14-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-14-002",
+   "所用规则": "RTQ-RULE-LQ-14-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-14-003",
+   "所用规则": "RTQ-RULE-LQ-14-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-14-004",
+   "所用规则": "RTQ-RULE-LQ-14-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-14-005",
+   "所用规则": "RTQ-RULE-LQ-14-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-15-001",
+   "所用规则": "RTQ-RULE-LQ-15-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-15-002",
+   "所用规则": "RTQ-RULE-LQ-15-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-15-003",
+   "所用规则": "RTQ-RULE-LQ-15-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-15-004",
+   "所用规则": "RTQ-RULE-LQ-15-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-15-005",
+   "所用规则": "RTQ-RULE-LQ-15-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-003",
+   "所用规则": "RTQ-RULE-LQ16-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-004",
+   "所用规则": "RTQ-RULE-LQ16-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-16-005",
+   "所用规则": "RTQ-RULE-LQ16-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-001",
+   "所用规则": "RTQ-RULE-LQ17-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-005",
+   "所用规则": "RTQ-RULE-LQ17-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-009",
+   "所用规则": "RTQ-RULE-LQ-17-N01、RTQ-RULE-LQ17-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-001",
+   "所用规则": "RTQ-RULE-LQ18-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-18-005",
+   "所用规则": "RTQ-RULE-LQ18-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-001",
+   "所用规则": "RTQ-RULE-LQ19-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-002",
+   "所用规则": "RTQ-RULE-LQ19-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-003",
+   "所用规则": "RTQ-RULE-LQ19-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-004",
+   "所用规则": "RTQ-RULE-LQ19-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-19-007",
+   "所用规则": "RTQ-RULE-LQ19-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-20-001",
+   "所用规则": "RTQ-RULE-LQ20-02、RTQ-RULE-LQ-20-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-20-002",
+   "所用规则": "RTQ-RULE-LQ20-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-21-001",
+   "所用规则": "RTQ-RULE-LQ21-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-21-002",
+   "所用规则": "RTQ-RULE-LQ21-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-21-003",
+   "所用规则": "RTQ-RULE-LQ21-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-22-001",
+   "所用规则": "RTQ-RULE-LQ22-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-23-001",
+   "所用规则": "RTQ-RULE-LQ23-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-001",
+   "所用规则": "RTQ-RULE-LQ24-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-002",
+   "所用规则": "RTQ-RULE-LQ24-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-003",
+   "所用规则": "RTQ-RULE-LQ24-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-004",
+   "所用规则": "RTQ-RULE-LQ24-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-006",
+   "所用规则": "RTQ-RULE-LQ24-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-009",
+   "所用规则": "RTQ-RULE-LQ24-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-012",
+   "所用规则": "RTQ-RULE-LQ24-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-013",
+   "所用规则": "RTQ-RULE-LQ24-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-014",
+   "所用规则": "RTQ-RULE-LQ-24-N01、RTQ-RULE-LQ24-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-015",
+   "所用规则": "RTQ-RULE-LQ24-17"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-016",
+   "所用规则": "RTQ-RULE-LQ24-17"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-017",
+   "所用规则": "RTQ-RULE-LQ24-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-019",
+   "所用规则": "RTQ-RULE-LQ24-21"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-020",
+   "所用规则": "RTQ-RULE-LQ24-21"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-023",
+   "所用规则": "RTQ-RULE-LQ24-23"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-024",
+   "所用规则": "RTQ-RULE-LQ24-25"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-027",
+   "所用规则": "RTQ-RULE-LQ24-29"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-030",
+   "所用规则": "RTQ-RULE-LQ24-30"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-035",
+   "所用规则": "RTQ-RULE-LQ24-31"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-002",
+   "所用规则": "RTQ-RULE-LQ25-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-003",
+   "所用规则": "RTQ-RULE-LQ25-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-010",
+   "所用规则": "RTQ-RULE-LQ25-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-017",
+   "所用规则": "RTQ-RULE-LQ-25-N01、RTQ-RULE-LQ25-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-018",
+   "所用规则": "RTQ-RULE-LQ25-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-020",
+   "所用规则": "RTQ-RULE-LQ25-17"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-021",
+   "所用规则": "RTQ-RULE-LQ25-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-28-002",
+   "所用规则": "RTQ-RULE-LQ28-11、RTQ-RULE-LQ-28-N01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-03-001",
+   "所用规则": "RTQ-RULE-TS-03-N01、RTQ-RULE-TS-03-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-03-002",
+   "所用规则": "RTQ-RULE-TS-03-N01、RTQ-RULE-TS-03-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-03-003",
+   "所用规则": "RTQ-RULE-TS-03-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-04-001",
+   "所用规则": "RTQ-RULE-TS-04-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-04-003",
+   "所用规则": "RTQ-RULE-TS-04-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-04-004",
+   "所用规则": "RTQ-RULE-TS-04-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-05-001",
+   "所用规则": "RTQ-RULE-TS-05-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-05-002",
+   "所用规则": "RTQ-RULE-TS-05-05、RTQ-RULE-TS-05-01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-06-001",
+   "所用规则": "RTQ-RULE-TS-06-04、RTQ-RULE-TS-06-03、RTQ-RULE-TS-06-N01"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-06-002",
+   "所用规则": "RTQ-RULE-TS-06-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-003",
+   "所用规则": "RTQ-RULE-TS-08-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-005",
+   "所用规则": "RTQ-RULE-TS-08-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-010",
+   "所用规则": "RTQ-RULE-TS-08-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-001",
+   "所用规则": "RTQ-RULE-TS-09-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-003",
+   "所用规则": "RTQ-RULE-TS-09-07"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-004",
+   "所用规则": "RTQ-RULE-TS-09-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-007",
+   "所用规则": "RTQ-RULE-TS-09-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-008",
+   "所用规则": "RTQ-RULE-TS-09-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-018",
+   "所用规则": "RTQ-RULE-TS-09-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-022",
+   "所用规则": "RTQ-RULE-TS-09-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-10-004",
+   "所用规则": "RTQ-RULE-TS-10-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-008",
+   "所用规则": "RTQ-RULE-TS-11-08"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-009",
+   "所用规则": "RTQ-RULE-TS-11-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-11-011",
+   "所用规则": "RTQ-RULE-TS-11-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-004",
+   "所用规则": "RTQ-RULE-TS-12-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-005",
+   "所用规则": "RTQ-RULE-TS-12-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-13-001",
+   "所用规则": "RTQ-RULE-TS-13-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-14-001",
+   "所用规则": "RTQ-RULE-TS-14-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-15-002",
+   "所用规则": "RTQ-RULE-TS-15-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-20-001",
+   "所用规则": "RTQ-RULE-TS-20-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-001",
+   "所用规则": "RTQ-RULE-TS-21-15"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-003",
+   "所用规则": "RTQ-RULE-TS-21-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-004",
+   "所用规则": "RTQ-RULE-TS-21-16"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-008",
+   "所用规则": "RTQ-RULE-TS-21-17"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-012",
+   "所用规则": "RTQ-RULE-TS-21-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-013",
+   "所用规则": "RTQ-RULE-TS-21-18"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-021",
+   "所用规则": "RTQ-RULE-TS-21-19"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-025",
+   "所用规则": "RTQ-RULE-TS-21-20"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-001",
+   "所用规则": "RTQ-RULE-TS-22-09"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-005",
+   "所用规则": "RTQ-RULE-TS-22-10"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-009",
+   "所用规则": "RTQ-RULE-TS-22-11"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-014",
+   "所用规则": "RTQ-RULE-TS-22-12"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-018",
+   "所用规则": "RTQ-RULE-TS-22-13"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-022",
+   "所用规则": "RTQ-RULE-TS-22-14"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-27-001",
+   "所用规则": "RTQ-RULE-TS-27-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-28-001",
+   "所用规则": "RTQ-RULE-TS-28-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-29-001",
+   "所用规则": "RTQ-RULE-TS-29-06、RTQ-RULE-TS-29-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-30-002",
+   "所用规则": "RTQ-RULE-TS-30-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-32-001",
+   "所用规则": "RTQ-RULE-TS-32-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-32-003",
+   "所用规则": "RTQ-RULE-TS-32-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-33-001",
+   "所用规则": "RTQ-RULE-TS-33-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-33-002",
+   "所用规则": "RTQ-RULE-TS-33-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-33-003",
+   "所用规则": "RTQ-RULE-TS-33-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-33-004",
+   "所用规则": "RTQ-RULE-TS-33-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-33-005",
+   "所用规则": "RTQ-RULE-TS-33-06"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-34-001",
+   "所用规则": "RTQ-RULE-TS-34-02"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-34-002",
+   "所用规则": "RTQ-RULE-TS-34-03"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-34-003",
+   "所用规则": "RTQ-RULE-TS-34-04"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-34-004",
+   "所用规则": "RTQ-RULE-TS-34-05"
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-34-005",
+   "所用规则": "RTQ-RULE-TS-34-06"
+  }
+ ],
+ "needs_review_S2": [
+  {
+   "CASE_ID": "RTQ-CASE-LQ-02-006",
+   "章": "LQ-02",
+   "原断": "\"土生夏令，重叠印绶，四柱全无水气，燥土不泄火生金，克三妻五子。至丑运湿土晦火生金，又会金局，得一子方育。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-02-01:反以官为子（犯上之嫌）",
+    "RTQ-RULE-LQ-02-02:更定以食伤为子女",
+    "RTQ-RULE-LQ-02-03:引书确据：时逢七煞本无儿、食神有制定多儿",
+    "RTQ-RULE-LQ-02-04:子息不可执一：先定食伤，再看衰旺喜忌（判断顺序）",
+    "RTQ-RULE-LQ-02-05:日主旺无印绶有食伤，子必多",
+    "RTQ-RULE-LQ-02-06:日主旺印重食伤轻，子必少",
+    "RTQ-RULE-LQ-02-07:日主旺印重食伤轻有财星，子多而贤",
+    "RTQ-RULE-LQ-02-08:日主弱食伤重印轻，亦无子"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-024",
+   "章": "LQ-06",
+   "原断": "\"癸水生于仲冬，支全亥子丑，北方一气，其势泛滥，一点丁火无根，最喜寅时，纳水而泄其菁华。甲木夫星坐禄，故为人聪明貌美，端庄幽娴；更喜运走东南木火之地，夫荣子秀，福泽有余。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-06-01:女命判断次序：先观夫星盛衰（知贵贱），次察格局清浊（",
+    "RTQ-RULE-LQ-06-02:女命与男命同用一套五行之理",
+    "RTQ-RULE-LQ-06-03:反二德三奇·反咸池驿马论女命邪淫",
+    "RTQ-RULE-LQ-06-04:不孝翁姑只为财轻劫重；不敬丈夫皆因官弱身强",
+    "RTQ-RULE-LQ-06-05:官旺明显夫主峥嵘；气静和平妇道柔顺",
+    "RTQ-RULE-LQ-06-06:女命夫星取用变通九法（不专以官为夫）",
+    "RTQ-RULE-LQ-06-07:女命身旺无官而财星得令得局者，为上格",
+    "RTQ-RULE-LQ-06-08:女命之夫星即是用神、子星即是喜神"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-06-025",
+   "章": "LQ-06",
+   "原断": "\"乙木生于季秋，柱中两坐禄旺，亥卯又拱木局，四柱无金，日元旺矣。喜其丙丁并透，泄木生于土。财星为夫，为人端庄和顺，夫中乡榜，出仕琴堂。生三子，寿至壬运。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-06-01:女命判断次序：先观夫星盛衰（知贵贱），次察格局清浊（",
+    "RTQ-RULE-LQ-06-02:女命与男命同用一套五行之理",
+    "RTQ-RULE-LQ-06-03:反二德三奇·反咸池驿马论女命邪淫",
+    "RTQ-RULE-LQ-06-04:不孝翁姑只为财轻劫重；不敬丈夫皆因官弱身强",
+    "RTQ-RULE-LQ-06-05:官旺明显夫主峥嵘；气静和平妇道柔顺",
+    "RTQ-RULE-LQ-06-06:女命夫星取用变通九法（不专以官为夫）",
+    "RTQ-RULE-LQ-06-07:女命身旺无官而财星得令得局者，为上格",
+    "RTQ-RULE-LQ-06-08:女命之夫星即是用神、子星即是喜神"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-013",
+   "章": "LQ-17",
+   "原断": "“甲寅日元，生于季春。四柱土多，时透辛金，土生金，金克木谓夫健怕妻。初运木火，去其土金，早游泮水，连登科甲；甲子癸亥，印旺逢生，日元足以任其财官，仕路超腾。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-17-01:君赖臣生即印绶太旺；日主为君、印（水）泛滥木浮，须用",
+    "RTQ-RULE-LQ-17-02:儿能救母须分时令：土冬令逢金水冻须火克金解冻生木；火",
+    "RTQ-RULE-LQ-17-03:母慈灭子亦印旺，但与君赖臣生异：君赖臣生财星有气可用",
+    "RTQ-RULE-LQ-17-04:夫健怕妻：木（夫）旺土（妻）多无金不怕，见庚申辛酉金",
+    "RTQ-RULE-LQ-17-05:夫健怕妻贵在“健”字；日主健则怕而不怕，运遇生旺扶身",
+    "RTQ-RULE-LQ-17-N01:俗论“杀印相生、身强杀浅、金水运名利双收”",
+    "RTQ-RULE-LQ-17-N02:俗论“木生孟春时杀独清名高禄重”",
+    "RTQ-RULE-LQ17-01:君赖臣生（反局一）：印绶太旺，须用财止印"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-014",
+   "章": "LQ-17",
+   "原断": "“甲木生于季春，木有余气，坐下印绶，中和之象；财星重叠当令，时透官星，土旺生金，夫健怕妻。初运木火，去其土金，早年入泮，科甲连登。仕路不能显秩者，只因土之病也。前造有亥，又坐禄，支更健于此，此则子未相穿坏印，彼则寅能制土护印也。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-17-01:君赖臣生即印绶太旺；日主为君、印（水）泛滥木浮，须用",
+    "RTQ-RULE-LQ-17-02:儿能救母须分时令：土冬令逢金水冻须火克金解冻生木；火",
+    "RTQ-RULE-LQ-17-03:母慈灭子亦印旺，但与君赖臣生异：君赖臣生财星有气可用",
+    "RTQ-RULE-LQ-17-04:夫健怕妻：木（夫）旺土（妻）多无金不怕，见庚申辛酉金",
+    "RTQ-RULE-LQ-17-05:夫健怕妻贵在“健”字；日主健则怕而不怕，运遇生旺扶身",
+    "RTQ-RULE-LQ-17-N01:俗论“杀印相生、身强杀浅、金水运名利双收”",
+    "RTQ-RULE-LQ-17-N02:俗论“木生孟春时杀独清名高禄重”",
+    "RTQ-RULE-LQ17-01:君赖臣生（反局一）：印绶太旺，须用财止印"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-015",
+   "章": "LQ-17",
+   "原断": "“戴尚书造。丁巳日元，生于孟夏，月时两透庚辛，地支又逢生助，巳亥逢冲，去火存金，夫健怕妻。喜其运走东方木地，助印扶身，大魁天下，宦海无波；一交子运，两巳爱制，不禄。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-17-01:君赖臣生即印绶太旺；日主为君、印（水）泛滥木浮，须用",
+    "RTQ-RULE-LQ-17-02:儿能救母须分时令：土冬令逢金水冻须火克金解冻生木；火",
+    "RTQ-RULE-LQ-17-03:母慈灭子亦印旺，但与君赖臣生异：君赖臣生财星有气可用",
+    "RTQ-RULE-LQ-17-04:夫健怕妻：木（夫）旺土（妻）多无金不怕，见庚申辛酉金",
+    "RTQ-RULE-LQ-17-05:夫健怕妻贵在“健”字；日主健则怕而不怕，运遇生旺扶身",
+    "RTQ-RULE-LQ-17-N01:俗论“杀印相生、身强杀浅、金水运名利双收”",
+    "RTQ-RULE-LQ-17-N02:俗论“木生孟春时杀独清名高禄重”",
+    "RTQ-RULE-LQ17-01:君赖臣生（反局一）：印绶太旺，须用财止印"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-016",
+   "章": "LQ-17",
+   "原断": "“戊戌日元，生于子月亥年，月透甲木逢生，水生木，木克土，夫健怕妻，最喜坐下戌之燥土，中藏丁火印绶，财虽旺，不能破印，所谓‘玄机暗里存’也。第嫌支类北方，财势太旺，物极必反，虽位至方伯，宦资不丰。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-17-01:君赖臣生即印绶太旺；日主为君、印（水）泛滥木浮，须用",
+    "RTQ-RULE-LQ-17-02:儿能救母须分时令：土冬令逢金水冻须火克金解冻生木；火",
+    "RTQ-RULE-LQ-17-03:母慈灭子亦印旺，但与君赖臣生异：君赖臣生财星有气可用",
+    "RTQ-RULE-LQ-17-04:夫健怕妻：木（夫）旺土（妻）多无金不怕，见庚申辛酉金",
+    "RTQ-RULE-LQ-17-05:夫健怕妻贵在“健”字；日主健则怕而不怕，运遇生旺扶身",
+    "RTQ-RULE-LQ-17-N01:俗论“杀印相生、身强杀浅、金水运名利双收”",
+    "RTQ-RULE-LQ-17-N02:俗论“木生孟春时杀独清名高禄重”",
+    "RTQ-RULE-LQ17-01:君赖臣生（反局一）：印绶太旺，须用财止印"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-17-017",
+   "章": "LQ-17",
+   "原断": "“仓提督造。戊午日元，生于亥月亥年，时逢甲寅杀旺，财杀肆逞，财星足以破印，以致难就书香。幸而寅拱午印，克处逢生，以杀化印，所以武职超群。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-17-01:君赖臣生即印绶太旺；日主为君、印（水）泛滥木浮，须用",
+    "RTQ-RULE-LQ-17-02:儿能救母须分时令：土冬令逢金水冻须火克金解冻生木；火",
+    "RTQ-RULE-LQ-17-03:母慈灭子亦印旺，但与君赖臣生异：君赖臣生财星有气可用",
+    "RTQ-RULE-LQ-17-04:夫健怕妻：木（夫）旺土（妻）多无金不怕，见庚申辛酉金",
+    "RTQ-RULE-LQ-17-05:夫健怕妻贵在“健”字；日主健则怕而不怕，运遇生旺扶身",
+    "RTQ-RULE-LQ-17-N01:俗论“杀印相生、身强杀浅、金水运名利双收”",
+    "RTQ-RULE-LQ-17-N02:俗论“木生孟春时杀独清名高禄重”",
+    "RTQ-RULE-LQ17-01:君赖臣生（反局一）：印绶太旺，须用财止印"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-029",
+   "章": "LQ-24",
+   "原断": "\"丙日午提，刃强当令，子冲之，辰泄之，弱可知矣。天干三戊，窃日主之精华；兼之运走西北金水这地，则羊刃更受其敌，不便功名蹭蹬，而且财源鲜聚。至甲寅年，会火焗，疏厚土，恩科发榜。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-24-01:性情由五行之戾/和、偏枯/中和决定：八字五行中和纯粹",
+    "RTQ-RULE-LQ-24-02:火燥烈者，唯可用湿土（丑、辰）润收其烈，则知礼、成慈",
+    "RTQ-RULE-LQ-24-03:水势冲奔（旺极）者，逆之以火土则更刚；顺之以金（顺势",
+    "RTQ-RULE-LQ-24-04:木奔南方泄气太过：有金须水以通之，无金须辰土以收火气",
+    "RTQ-RULE-LQ-24-05:金见水则流通、能用智。金旺遇水（得气之正）=> 内方",
+    "RTQ-RULE-LQ-24-06:西方之水（发源最长、势浩荡）用木纳之 => 智之性行",
+    "RTQ-RULE-LQ-24-07:东方之火用湿土收之 => 刚烈化为慈爱；一转北方（水",
+    "RTQ-RULE-LQ-24-08:顺逆之机：我生者（旺）宜顺，生我者（衰）宜逆；旺者遇"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-031",
+   "章": "LQ-24",
+   "原断": "\"印提台造，壬不生于子月，官杀并透通根，全赖支会水局，助起羊刃，谓杀刃两旺。惜乎无木，秀气未哇，身出寒微。喜其丙敌寒解冻，为人宽厚和平，行伍出身。癸酉运助刃帮身，得官；壬申运，正谓一岁九迁，仕至极品；一交未运制刃，至丁丑年火土并旺，又克合子",
+   "候选规则": [
+    "RTQ-RULE-LQ-24-01:性情由五行之戾/和、偏枯/中和决定：八字五行中和纯粹",
+    "RTQ-RULE-LQ-24-02:火燥烈者，唯可用湿土（丑、辰）润收其烈，则知礼、成慈",
+    "RTQ-RULE-LQ-24-03:水势冲奔（旺极）者，逆之以火土则更刚；顺之以金（顺势",
+    "RTQ-RULE-LQ-24-04:木奔南方泄气太过：有金须水以通之，无金须辰土以收火气",
+    "RTQ-RULE-LQ-24-05:金见水则流通、能用智。金旺遇水（得气之正）=> 内方",
+    "RTQ-RULE-LQ-24-06:西方之水（发源最长、势浩荡）用木纳之 => 智之性行",
+    "RTQ-RULE-LQ-24-07:东方之火用湿土收之 => 刚烈化为慈爱；一转北方（水",
+    "RTQ-RULE-LQ-24-08:顺逆之机：我生者（旺）宜顺，生我者（衰）宜逆；旺者遇"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-032",
+   "章": "LQ-24",
+   "原断": "\"稽中堂造，甲子日元，生于未月午时，谓夏木逢水，伤官佩印。所喜者卯木克住未土，则子水不受其伤，足以冲午有病得药，去浊留清。天干甲乙庚辛，各立门户，不作混论，乃滋印之喜神。更妙运走东北水木之地，体有合宜，一生宦途平顺。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-24-01:性情由五行之戾/和、偏枯/中和决定：八字五行中和纯粹",
+    "RTQ-RULE-LQ-24-02:火燥烈者，唯可用湿土（丑、辰）润收其烈，则知礼、成慈",
+    "RTQ-RULE-LQ-24-03:水势冲奔（旺极）者，逆之以火土则更刚；顺之以金（顺势",
+    "RTQ-RULE-LQ-24-04:木奔南方泄气太过：有金须水以通之，无金须辰土以收火气",
+    "RTQ-RULE-LQ-24-05:金见水则流通、能用智。金旺遇水（得气之正）=> 内方",
+    "RTQ-RULE-LQ-24-06:西方之水（发源最长、势浩荡）用木纳之 => 智之性行",
+    "RTQ-RULE-LQ-24-07:东方之火用湿土收之 => 刚烈化为慈爱；一转北方（水",
+    "RTQ-RULE-LQ-24-08:顺逆之机：我生者（旺）宜顺，生我者（衰）宜逆；旺者遇"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-033",
+   "章": "LQ-24",
+   "原断": "\"甲木生于午月，支中三午一戌，火炎土燥，伤官肆逞，月壬水无根，全赖庚金滋水，所以科甲联合。其仕路蹭蹬者，只因地支皆火，无干金水，木无托根之地，神有余而足之故也。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-24-01:性情由五行之戾/和、偏枯/中和决定：八字五行中和纯粹",
+    "RTQ-RULE-LQ-24-02:火燥烈者，唯可用湿土（丑、辰）润收其烈，则知礼、成慈",
+    "RTQ-RULE-LQ-24-03:水势冲奔（旺极）者，逆之以火土则更刚；顺之以金（顺势",
+    "RTQ-RULE-LQ-24-04:木奔南方泄气太过：有金须水以通之，无金须辰土以收火气",
+    "RTQ-RULE-LQ-24-05:金见水则流通、能用智。金旺遇水（得气之正）=> 内方",
+    "RTQ-RULE-LQ-24-06:西方之水（发源最长、势浩荡）用木纳之 => 智之性行",
+    "RTQ-RULE-LQ-24-07:东方之火用湿土收之 => 刚烈化为慈爱；一转北方（水",
+    "RTQ-RULE-LQ-24-08:顺逆之机：我生者（旺）宜顺，生我者（衰）宜逆；旺者遇"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-24-034",
+   "章": "LQ-24",
+   "原断": "\"周侍朗造，庚金生于仲冬，金水寒冻，月干丙火，得年之甲木生扶，解其寒冻之气，谓冬金得火。但子辰双拱，日元必虚，用神不在丙火而在辰土，比肩佐之，所以运至庚辰辛巳，仕版连登。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-24-01:性情由五行之戾/和、偏枯/中和决定：八字五行中和纯粹",
+    "RTQ-RULE-LQ-24-02:火燥烈者，唯可用湿土（丑、辰）润收其烈，则知礼、成慈",
+    "RTQ-RULE-LQ-24-03:水势冲奔（旺极）者，逆之以火土则更刚；顺之以金（顺势",
+    "RTQ-RULE-LQ-24-04:木奔南方泄气太过：有金须水以通之，无金须辰土以收火气",
+    "RTQ-RULE-LQ-24-05:金见水则流通、能用智。金旺遇水（得气之正）=> 内方",
+    "RTQ-RULE-LQ-24-06:西方之水（发源最长、势浩荡）用木纳之 => 智之性行",
+    "RTQ-RULE-LQ-24-07:东方之火用湿土收之 => 刚烈化为慈爱；一转北方（水",
+    "RTQ-RULE-LQ-24-08:顺逆之机：我生者（旺）宜顺，生我者（衰）宜逆；旺者遇"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-25-024",
+   "章": "LQ-25",
+   "原断": "\"春木当权，卯酉虽冲，木旺金缺，土亦受伤；更嫌卯戌寅砘拱合化杀，木主脾虚肺伤疾，然竟一生无病  。便酉弱卯强，妻虽不克，而中深难言。生二子，皆不肖卒，为匪类，故免其病，财亦旺也。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-25-01:五行和者一世无灾。和者贵在泄其旺神、补其不足之弱神：",
+    "RTQ-RULE-LQ-25-02:血气乱 = 五行悖而不顺。水为血，丁壬相合则心肾相交",
+    "RTQ-RULE-LQ-25-03:忌神入五脏（阴浊深伏地支）为病最凶。配属：土=脾胃（",
+    "RTQ-RULE-LQ-25-04:客神游六经 = 阳虚浮于天干，易制易化为灾小（病在表",
+    "RTQ-RULE-LQ-25-05:木不受水者血病。春/冬木不受水因喜火（温/解冻）；夏",
+    "RTQ-RULE-LQ-25-06:土不受火者气伤。燥实土不受火喜水润；虚湿土不受火忌水",
+    "RTQ-RULE-LQ-25-07:金水伤官：过寒（辛凉真气亏）=>冷嗽；过热（水不胜火",
+    "RTQ-RULE-LQ-25-08:五行不和之病与人事相通，不可专执；病不相符可究六亲吉"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-014",
+   "章": "LQ-26",
+   "原断": "\"戊土生于仲春，官杀并旺临禄，又才星得地生扶，虽坐下午火印绶，虚土不能纳火各成充命从杀一既从，水作混论，郅了运冲去午火，庚子年金生水量，冲 尽香火，中乡榜。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-015",
+   "章": "LQ-26",
+   "原断": "\"庚金生地戌月，印星当令，金亦有气，用神在水，不在火也。至庚申流年，壬水逢生，又泄土气，北闱奏捷。所发者，戊土元神透露，不利春闱，兼之中运木火，则多破耗。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-016",
+   "章": "LQ-26",
+   "原断": "\"辛金生于季夏，局中虽多燥土，妙在丛下亥不，年时逢子养金，能邀其未拱木为用。至丁卯年，全会木局，有病得药，棘闱奏捷。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-017",
+   "章": "LQ-26",
+   "原断": "\"乙卯日元，生于季秋，得寅时之助，日主不弱，用巳火秀气，戌土火库收之，壬癸克之。格局本无出色，且辛金司令，壬水进气通源，幸得时透戊土，去浊留清，文望若高山北斗，品行似良玉精金，中运逢火，丙子优贡。惜子水得地，难得登云。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-018",
+   "章": "LQ-26",
+   "原断": "\"甲申日元，生于孟秋，庚金两坐禄旺，喜亥时绝处逢生，化杀有情，癸水元神透出，清可知矣。但嫌杀势太旺，日主虚弱，不能假杀为权，所以起而不起也。廪贡终身。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-019",
+   "章": "LQ-26",
+   "原断": "\"丁火生于季春，官星虽起，坐下无根，其气归木。日主临旺，时财拱会有情，却与官星不通；且中年运走土金，财得泮溢，官星有损，功名不过一衿，家业数 十万。若换酉年午时，名利双辉矣。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-020",
+   "章": "LQ-26",
+   "原断": "\"丙午日元，生于卯月，局中木火两旺，官坐伤位，一点财星劫尽，谓财劫官伤。壬运虽得一衿，贫乏不堪；子运回冲，又逢未破克妻；辛运丁火回劫，克子；亥运会木生火而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-021",
+   "章": "LQ-26",
+   "原断": "\"此造大象观之，杀生印，印生身，食神清透，连珠相生，清而纯粹，学问过人，品行端方，惜乎无火，清而少神，用土则金多气泄，用木则金锐木凋；兼多运走西北金水之地，读书六十年 ，不克博一衿。家贫出就外傅四十载，受业者登科发甲，自己不获一衿，莫非命也",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-023",
+   "章": "LQ-26",
+   "原断": "\"甲木生于孟秋，七杀当令，巳火食神贪生己土，忘克申金，兼之戊己并透，破印生杀，以致祖业难登，书香不继。喜其秋水通源，日坐禄旺，明虽冲克，暗却相生。由部书出身，至丁卯丙寅运，扶身制杀，仕至观察。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-026",
+   "章": "LQ-26",
+   "原断": "\"戊戌日元，生于季春，时逢火土，日元得气，虽春时虚土，而杀透通根，兼之壬水得地，贴身相生，此谓身杀两停  ，非身强煞浅也。天干壬水克丙，所以书香不利，喜其初运南方，损纳出身。仕名区，宰大邑。便财露生煞为病，恐将来运走 西方，水生火绝，缘其人",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-027",
+   "章": "LQ-26",
+   "原断": "\"丙火生于孟春，官透为用，清而纯粹，惜乎金水遥隔，无相生之意；且木火并旺，金水无根，书香不继，游幕捐给县令，究竟财官不通门户，丁丑年大运在戌，火土当权，得疾而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-028",
+   "章": "LQ-26",
+   "原断": "\"辛金生于季春，支逢辰酉，干透壬丁，似乎佳美，不知地支湿土逢金，丁火虚无根，甲木虽有生火，地支辰酉化金，亦自顾不暇，捐纳部属，不但财多破耗，而 且不\"",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-029",
+   "章": "LQ-26",
+   "原断": "「戊土生于午月，印星秉令，时逢癸亥，正日元得气遇财星也，但金气太旺，又年支湿土，晦火生金，日元反弱，则印绶暗伤，书香难遂。损纳出身，至丁卯丙寅运，木从火势，生化不悖，仕致黄堂。喜其午火真神得用，为人忠厚和平，后运乙丑，晦水生金，不禄。」",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-030",
+   "章": "LQ-26",
+   "原断": "「戊戌日元，生于季春，时逢火土，日元得气，虽春时虚土，而杀透通根，兼之壬水得地，贴身相生，此谓身杀两停，非身强煞浅也。天干壬水克丙，所以书香不利，喜其初运南方，损纳出身。仕名区，宰大邑。便财露生煞为病，恐将来运走西方，水生火绝，缘其人好奢少",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-031",
+   "章": "LQ-26",
+   "原断": "「丙火生于孟春，官透为用，清而纯粹，惜乎金水遥隔，无相生之意；且木火并旺，金水无根，书香不继，游幕捐给县令，究竟财官不通门户，丁丑年大运在戌，火土当权，得疾而亡。」",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-26-032",
+   "章": "LQ-26",
+   "原断": "「辛金生于季春，支逢辰酉，干透壬丁，似乎佳美，不知地支湿土逢金，丁火虚无根，甲木虽有生火，地支辰酉化金，亦自顾不暇，捐纳部属，不但财多破耗，而且不能得缺。虽壬水生甲，遗业数十万但运走土金，未免家业退而子息艰也。」",
+   "候选规则": [
+    "RTQ-RULE-LQ-26-01:论出身最难，有玄机：须究支中藏神司命包罗用神喜神，使",
+    "RTQ-RULE-LQ-26-02:清得尽者（清气独逢生旺/真神得用/清纯）=> 黄榜。",
+    "RTQ-RULE-LQ-26-03:秀才命必有清气存焉，但“官星不起”则不过一衿：官星不",
+    "RTQ-RULE-LQ-26-04:异路功名（刀笔/捐纳）不外日干有气、财星相通（财星得",
+    "RTQ-RULE-LQ-26-N01:俗论：官星不透、财轻劫生 = 平常命",
+    "RTQ-RULE-LQ26-01:出身之玄机：支中藏神司命，包罗用神喜神",
+    "RTQ-RULE-LQ26-02:名冠群英者须究世德与山川（超命范围）",
+    "RTQ-RULE-LQ26-03:大贵之造多秀气深藏，显然杀印财官者必非佳造"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-002",
+   "章": "LQ-27",
+   "原断": "“此刘中堂造，天然清气在丙火也。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-003",
+   "章": "LQ-27",
+   "原断": "“此钱尚书造，天然清气在乙木也。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-004",
+   "章": "LQ-27",
+   "原断": "“此秦侍郎造，天然清气在丁火也。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-006",
+   "章": "LQ-27",
+   "原断": "“丙子日元，月时两透壬水，日主三面受敌，柱中无木泄水生火，反有庚金生水泄土，金赖午火旺刃当权为用，更喜戌之燥土，制水会火。乡榜出身，丙戌丁亥运仕至按察。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-007",
+   "章": "LQ-27",
+   "原断": "“壬辰日元，天干两煞，通根辰支，年干乙木凋枯，能泄水而不能制土，正克泄交加，最喜子水当权会局，杀刃神情。至酉运生水克木，又能化杀，科甲连登；甲申登运，仕路光亨，至按察；示运羊刃受制，不禄。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-008",
+   "章": "LQ-27",
+   "原断": "“甲申日元，生于仲春，官杀并透通根，日时临于死绝，必用卯之羊刃。喜其丙火合辛，不但无混杀之嫌，抑且卯木不受其制，刃杀神清，且运走南方火地。科甲出身，仕臬宪。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-010",
+   "章": "LQ-27",
+   "原断": "“丁火生于戌月，局中木火重重，伤官用财，格局本佳，部书出身，仕至县令。惜柱中无水，戌乃燥土，不能生金晦火，木生火旺，巳酉无拱合之情，所以妻妾生十子皆克。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-011",
+   "章": "LQ-27",
+   "原断": "“辛金生于寅月，财旺逢食，官透遇财，又逢劫印相扶，中和纯粹，精神两足。初看似乎看弱，细究之，木嫩火虚，印透通根，日元足以用官。中年南方火运，异路出身，仕至黄堂。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-012",
+   "章": "LQ-27",
+   "原断": "“戊土生于午月，局中偏官虽旺，印星太重，木从火势，火必焚木，一点亥水，不能生木克火。交癸运，克丁生甲，北极连登科甲，出宰名区；辛运合丙，仕路顺遂；交丑运，克水告病，致仕。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-013",
+   "章": "LQ-27",
+   "原断": "“甲子日元，生于季春，木有余气。坐下印绶，官星清透，且子辰拱印有情；更妙运走东北水木之地，名登甲榜。只嫌子未破印，仕路未免有阻，老于教职。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-015",
+   "章": "LQ-27",
+   "原断": "“甲木生于丑月，水生寒凝，本喜火以敌寒，更妙日时寅卯气旺，丁火旺秀，其清在火也。所嫌壬登透干，丁火发作国，难遂书香之志。然地支无水，干虽浊，支从午火留清。异路出身，至戊午运，合癸制壬，升知县。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-016",
+   "章": "LQ-27",
+   "原断": "“丙火生于巳月，天地煞印留清，所嫌者丑时合去子水，则壬水失势，化助伤官则日元泄气，一点乙木，不能疏土。异路出身，虽获盗有功，而上意不合，竟不能升。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-017",
+   "章": "LQ-27",
+   "原断": "“癸酉日元，生于戌月，地支官印相生，肖可知矣。所嫌者，天士内财得地，兼之乙木助火克金，所以书香难遂。喜秋金有气，异路出身，至巳运逢财坏印，丁艰回籍。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-LQ-27-018",
+   "章": "LQ-27",
+   "原断": "“戊子日，生于辰月午时，天干三戊，旺可知矣。甲木退气临绝，不但无用，反为混论，其精气在地运之申，泄其精英，惜春金不旺，幸子水冲午，润土养金，虽捐纳佐二，仁途顺遂。”",
+   "候选规则": [
+    "RTQ-RULE-LQ-27-01:台阁封疆之任（极贵）：天然清气发乎纯粹，四柱与喜神有",
+    "RTQ-RULE-LQ-27-02:掌兵刑生杀之任：必刃旺敌杀、杀刃神清、气势特（刃旺当",
+    "RTQ-RULE-LQ-27-03:方面州县之官（分藩司牧）：以财官为重，须格局清纯、日",
+    "RTQ-RULE-LQ-27-04:杂职佐贰首领：虽非格正局清，必有一点清气；总不外天清",
+    "RTQ-RULE-LQ27-01:台阁宰辅封疆之任：清气显机权",
+    "RTQ-RULE-LQ27-02:命例断法：天然清气在某字（中堂／尚书／侍郎）",
+    "RTQ-RULE-LQ27-03:兵权獬豸弁冠客，刃煞神清气势特",
+    "RTQ-RULE-LQ27-04:命例断法：刃杀神清掌兵刑／杀刃当权仕臬宪"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-012",
+   "章": "TS-08",
+   "原断": "\"此造旺财当令，加以年上食神生助，日逢时禄，不为无根，所以身出富家。时透癸水，巳火失势，逢酉邀而拱金矣。五行无木，全赖午火帮身，则癸水为病明矣。一交子运，癸水得禄，子辰拱水，酉金党子冲午，四柱无解救之神，所谓'旺者冲衰衰者拔'，破家亡身。若",
+   "候选规则": [
+    "RTQ-RULE-TS-08-01:阳支动强验速·阴支静弱应迟",
+    "RTQ-RULE-TS-08-02:地支取用以本气为主",
+    "RTQ-RULE-TS-08-03:生方怕冲（两败俱伤）",
+    "RTQ-RULE-TS-08-04:败地逢冲视用神（用金水可冲·用木火不可冲）",
+    "RTQ-RULE-TS-08-05:伤官佩印喜用在木火者忌见金水",
+    "RTQ-RULE-TS-08-06:反「四库必要冲者执一之论」",
+    "RTQ-RULE-TS-08-07:反「墓库逢冲则发」",
+    "RTQ-RULE-TS-08-08:反三刑"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-08-013",
+   "章": "TS-08",
+   "原断": "\"此财官虚露无根，枭比当权得势，以四柱观之，贫夭之命。前造身财并旺，反遭破败无寿，此则财官休囚，劫业有寿，不知彼则无木，逢水冲则拔，此则有水，遇火劫有救。至甲申乙酉运，庚金禄旺，壬癸逢生，又冲去寅卯之木，所谓'衰神冲旺旺神发'，骤然发财巨万",
+   "候选规则": [
+    "RTQ-RULE-TS-08-01:阳支动强验速·阴支静弱应迟",
+    "RTQ-RULE-TS-08-02:地支取用以本气为主",
+    "RTQ-RULE-TS-08-03:生方怕冲（两败俱伤）",
+    "RTQ-RULE-TS-08-04:败地逢冲视用神（用金水可冲·用木火不可冲）",
+    "RTQ-RULE-TS-08-05:伤官佩印喜用在木火者忌见金水",
+    "RTQ-RULE-TS-08-06:反「四库必要冲者执一之论」",
+    "RTQ-RULE-TS-08-07:反「墓库逢冲则发」",
+    "RTQ-RULE-TS-08-08:反三刑"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-09-029",
+   "章": "TS-09",
+   "原断": "\"此造天干木生火，火生土，土生金，地支水生木，木生火，火生土，土生金。且由支而生干，从地支则以年支子水生寅木为始，至时干辛金为终；从天干亦以年支子水生甲木为始，至时干辛金为终。天地同流。正所谓始其所始，终其所终也，是以科甲联登，仕至极品，夫",
+   "候选规则": [
+    "RTQ-RULE-TS-09-01:论命不专以阴阳顺逆为凭",
+    "RTQ-RULE-TS-09-02:日主得根即不为弱（月令休囚亦可用）",
+    "RTQ-RULE-TS-09-03:阴阳同生同死·反阳生阴死阴生阳死",
+    "RTQ-RULE-TS-09-04:印作生论则不宜再见印",
+    "RTQ-RULE-TS-09-05:天覆地载（干以载之支为切·支以覆之干为切）",
+    "RTQ-RULE-TS-09-06:干通根于支·根坚根拔",
+    "RTQ-RULE-TS-09-07:日主最宜健旺·用神不可损伤",
+    "RTQ-RULE-TS-09-08:用神之干不得地支承载则虽有若无"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-006",
+   "章": "TS-12",
+   "原断": "\"此造俗论，丙午日支全三年，四柱滴水全无，中年又无水运，必作飞天禄马，名利双辉，不知此造午中己土，巳中庚金，元神透出年月两干，真火土伤官生财格。初交己巳戊辰，汇火生金，遗业颇丰；丁卯丙寅，土金喜用皆伤，连遭回禄三次，又克两妻四子，家业破尽；",
+   "候选规则": [
+    "RTQ-RULE-TS-12-01:取格次第（月令→天干透神→司令定真假→取用分清浊）",
+    "RTQ-RULE-TS-12-02:正格与变格之名目",
+    "RTQ-RULE-TS-12-03:反外格异端·反《兰台妙选》·反神煞",
+    "RTQ-RULE-TS-12-04:反「王骑龙背」「六阴朝阳」「鼠贵格」等命名",
+    "RTQ-RULE-TS-12-05:格局不可执一·旺则抑衰则扶（印旺泄官宜财·印衰逢财宜",
+    "RTQ-RULE-TS-12-06:反暗冲暗合格（飞天禄马）",
+    "RTQ-RULE-TS-12-07:反杂气财官喜冲（透干取格为是）",
+    "RTQ-RULE-TS-12-08:反禄格诸说（建禄喜官/日禄归时/禄堂）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-12-007",
+   "章": "TS-12",
+   "原断": "\"乙卯日，生于卯月卯时，旺之极矣，最喜丁火独发，泄其精英。惜癸水克丁，仍伤秀气，时干己土临绝，不能去其癸水，因之书香不继，初中运逢水木之地刑丧破耗，家业渐消：戊戌丁运，大遂经营之愿，发财巨万，若以飞天禄马论之，则戊戌运大破矣。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-12-01:取格次第（月令→天干透神→司令定真假→取用分清浊）",
+    "RTQ-RULE-TS-12-02:正格与变格之名目",
+    "RTQ-RULE-TS-12-03:反外格异端·反《兰台妙选》·反神煞",
+    "RTQ-RULE-TS-12-04:反「王骑龙背」「六阴朝阳」「鼠贵格」等命名",
+    "RTQ-RULE-TS-12-05:格局不可执一·旺则抑衰则扶（印旺泄官宜财·印衰逢财宜",
+    "RTQ-RULE-TS-12-06:反暗冲暗合格（飞天禄马）",
+    "RTQ-RULE-TS-12-07:反杂气财官喜冲（透干取格为是）",
+    "RTQ-RULE-TS-12-08:反禄格诸说（建禄喜官/日禄归时/禄堂）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-14-002",
+   "章": "TS-14",
+   "原断": "\"此造以大势观之，官印相生，偏财时遇，五行不缺，四柱纯粹，俨然贵格，不如财官两字休囚，又遥隔不能相顾，支全寅、卯、辰。春土克尽，不能生金，金临绝地，不能生水，水之气尽泄于木，木之势愈旺而火炽，火炽则气毙，气毙则神枯。行运北方，又伤丙火之气，",
+   "候选规则": [
+    "RTQ-RULE-TS-14-01:精神定义（精=生我之神·神=克我之物·气=本气贯足）",
+    "RTQ-RULE-TS-14-02:反「金水为精气木火为神气」·命中表里精神以泄克论",
+    "RTQ-RULE-TS-14-03:损益法则（精太足益其气·气太旺助其神·神太泄滋其精）",
+    "RTQ-RULE-TS-14-04:五行偏胜则无精神",
+    "RTQ-RULE-TS-14-05:官来能挡劫来有官食来有印（精神贯足则富贵福寿）",
+    "RTQ-RULE-TS-14-N01:原注以金水为精气、木火为神气（脏论五行定精神）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-002",
+   "章": "TS-17",
+   "原断": "\"此造四支皆木，又逢水生，六木两水，别无他气。木旺极者，似火也，出身祖业本丰。惟丑运刑伤，壬子水势乘旺，辛亥金不通根，支逢水旺，此二十年经营，获利数万；一交庚戌，土金并旺，破财而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-003",
+   "章": "TS-17",
+   "原断": "\"此造地支土金，木无盘根之处，时干辛金，元神发透，木太衰者，似水也，初运癸未壬午，生木制金，刑丧早见，荫疪难丰；辛巳庚辰，金逢生地，白手发财数万；己卯运土无根，木得地，遭回禄，破财万余；至寅而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-004",
+   "章": "TS-17",
+   "原断": "\"此造地支皆逢克泄，天干又透火土，全无水气。木衰极者，似土也。初交戊辰丁运，获丰厚之荫疪，美景良多；卯运椿萱并谢；丙运大遂经营之愿，获利万金；寅运克妻破财，又遭回禄；乙丑支全金局，火土两泄，家业耗散；甲子北方水地，不禄宜矣。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-005",
+   "章": "TS-17",
+   "原断": "\"此丙戌日元，月时两刃，壬水无根，又逢木泄。火太旺者，似水也。初运庚辰辛巳，金逢生地，孔怀无辅助之人，亲党少知心之辈；己卯得际遇，戊寅全会火局，及丁丑二十年，发财四五万，至子运而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-006",
+   "章": "TS-17",
+   "原断": "\"此造丙火生孟夏，地支两坐长生而逢禄旺。火旺极者，似土也。初运虽不逢木，喜其南方火地，遗绪丰盈，读书过目成育；一交庚运，即弃诗书，受嬉好游，挥金如土；申运家破身亡。此造若逢木运，名利两全也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-007",
+   "章": "TS-17",
+   "原断": "\"丁火生于八月，秋金秉令，又全金局。火衰者，似木也。初运己未甲午，火木并旺，骨肉如同画饼，六亲亦是浮云；一交癸巳，干透水，支拱金，出外经营，大得际遇；壬辰运中，发财十余万。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-008",
+   "章": "TS-17",
+   "原断": "\"此财生杀，杀功身，丙临申，申辰拱水。火衰极者，似金也。初运辛卯庚寅，东方木地，萱椿凋谢，祖业无恒；至己丑运，出外经营，青蚨衬辇，白镪随舆；及戊子二十年，春风吹枊，红绫易公子之裳，杏露沾衣，膏雨沐王孙之袖。所谓有其运，必得其福也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-009",
+   "章": "TS-17",
+   "原断": "\"此造重重厚土，生于夏令，土太旺者，似木也，其用在金。庚申运，早采芹香；辛酉运辛丑年，饮鹿鸣，宴琼林，云程直上；壬戌运，刑丧挫折，丙午而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-010",
+   "章": "TS-17",
+   "原断": "\"此造四柱火土，全无克泄。土旺极者，似金也。初运南方，遗业丰盈，午运入泮，己未棘闱，拔而不举；一交庚申，青蚨化蝶，家业渐消；辛酉财若春后霜雪，事业萧条；壬运克丙不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-011",
+   "章": "TS-17",
+   "原断": "\"此造支类北方，水势汪洋，天干又透金水。土太衰者，似火也。运至甲寅乙卯，干支皆木，名成利遂；一交丙运，刑妻克子，破耗多端；至于巳运，岁运火土，暗伤体用，得风疾而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-012",
+   "章": "TS-17",
+   "原断": "\"此四柱皆水，又得金生。土衰极者，似水也。初运癸亥，平宁之境；壬戌水无根，土得地，刑丧破耗，家业消亡；辛酉庚申二十年，大得际遇，白手发财十余万；己未运破去数万，寿亦在未而止。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-014",
+   "章": "TS-17",
+   "原断": "\"此造支类西方，又逢厚土，金旺极者，似水也。初运火，祖业无恒；至戊子运获厚利，纳房出仁已丑庚运，名利皆遂；一交寅运，犯事落职，大破财利；至卯不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-015",
+   "章": "TS-17",
+   "原断": "\"辛金生于促夏，地支皆逢财杀。金太衰者，似土也。初运己巳戊辰，晦火生金，求名多滞，作事少成；一交丁卯，木火并旺，如枯苗得雨，勃然而兴，似鸿毛遇风，飘然而起，家业丰裕交丑生金泄火，不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-016",
+   "章": "TS-17",
+   "原断": "\"此造木旺乘权，又得水生，四面皆逢财杀。金衰极者，似木也。所以乙丑运中，土金暗旺，家业破尽；至甲子运，北方水旺，财源通裕；癸亥出仁，名利两全壬戌水临绝地，罢职而归。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-017",
+   "章": "TS-17",
+   "原断": "\"此造壬水生于孟冬，支类北方，干皆金水。水太旺者，似土也，喜其寅木吐秀。至甲寅运，早遂青云之志，可谓才藻翩翩，辉映杏坛桃李，文思弈弈，光腾药笼参芩，乙卯运官途顺遂，交丙而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-018",
+   "章": "TS-17",
+   "原断": "\"此造四柱皆水，一无克泄，其势冲奔，不可遏也。初运壬戌，支逢土旺，早见刑丧；辛酉庚申，干支皆金，所谓月印午江银作浪，门临五福锦铺花；交己未，妻子皆伤，家业破尽；戌午运，贫乏不堪，忧郁而卒。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-019",
+   "章": "TS-17",
+   "原断": "\"此火土当权，又逢木助，五行无金。水太衰者，似金也。初交丙申丁酉，盖头是火，使申酉不能生水，财喜并旺；戊戌运中，家业饶裕；己亥土无根，还喜支会木局，虽有破耗而无大患；一交庚子，家破人亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-17-020",
+   "章": "TS-17",
+   "原断": "\"此造丙火当权，戊癸从化，枯干壬水。水衰极者，似火也。初运逢火，从其火旺，丰衣足食；乙卯甲寅，名利双全；癸丑争官夺财，破耗而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-17-01:得时俱为旺论失令便作衰看是「死法」",
+    "RTQ-RULE-TS-17-02:日干只要四柱有根便能受财官食神而当伤官七杀",
+    "RTQ-RULE-TS-17-03:通根重于比肩（墓库余气轻于长生禄旺）",
+    "RTQ-RULE-TS-17-04:反求刑冲以开墓库（负向）",
+    "RTQ-RULE-TS-17-05:得时不旺·失时不弱",
+    "RTQ-RULE-TS-17-06:五行颠倒·木旺侧（太旺似金喜火炼／旺极似火喜水克）",
+    "RTQ-RULE-TS-17-07:五行颠倒·木衰侧（太衰似水宜金生／衰极似土宜火生）",
+    "RTQ-RULE-TS-17-08:五行颠倒·火旺侧（太旺似水喜土止／旺极似土喜木克）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-18-001",
+   "章": "TS-18",
+   "原断": "\"癸卯日元，生于亥时，日主之气已贯，喜其无土，才旺自能生官。更妙巳亥遥冲，去火存金，伅星得用，木火受制，体用不伤，中和纯粹。为人智识深沉，器重荆山荆山璞玉，才华卓越，光浮览水珠玑。庚运助辛制甲，自应台曜高躔，朗映紫薇，徽嫌亥卯拱木，木旺金衰",
+   "候选规则": [
+    "RTQ-RULE-TS-18-01:中和为命中之正理",
+    "RTQ-RULE-TS-18-02:身弱旺地／身旺弱地取富贵者，四柱必有缺陷（四不足）",
+    "RTQ-RULE-TS-18-03:偏气古怪五行不正者，心事奸贪作事侥幸",
+    "RTQ-RULE-TS-18-04:有病无药之辨（有病者显而易取，无病者隐而难推）",
+    "RTQ-RULE-TS-18-N01:\"有病有药吉凶易验、无病无药祸福难推\"之说"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-18-002",
+   "章": "TS-18",
+   "原断": "\"此王观察造，癸日子月，似乎旺相，不知财杀太重，旺中变弱，局中无木，混浊不清，阴内阳外之象。月透财星，其心意必欲爱之；时逢官杀，其心志必欲合之。所以权谋异众，才干过人，出生末微，心术不端。癸酉得逢际遇，由佐二至观察，奢华逢迎，无出其右；至未",
+   "候选规则": [
+    "RTQ-RULE-TS-18-01:中和为命中之正理",
+    "RTQ-RULE-TS-18-02:身弱旺地／身旺弱地取富贵者，四柱必有缺陷（四不足）",
+    "RTQ-RULE-TS-18-03:偏气古怪五行不正者，心事奸贪作事侥幸",
+    "RTQ-RULE-TS-18-04:有病无药之辨（有病者显而易取，无病者隐而难推）",
+    "RTQ-RULE-TS-18-N01:\"有病有药吉凶易验、无病无药祸福难推\"之说"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-002",
+   "章": "TS-21",
+   "原断": "\"此造天干三透庚辛，地支两坐禄旺，丙火虽挂角得禄，无如庚辛元神透露，非火之禄支，是金之长生，用财滋杀明矣。辰运木之余气，采芹生色；巳运火之禄旺，科甲联登；甲午乙未，木火并旺，仕至藩臬。若以八字观之，此造不及前造，只因前造运行西北，此造运走东",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-005",
+   "章": "TS-21",
+   "原断": "\"此造木凋金锐，厚土生金，原可畏也，然喜支全水局，化其肃杀之气，生化有情。至癸亥运，科甲连登，早蒙仕路之光；丙寅丁卯，制化皆宜。仕路封疆，官途平坦，生平履险如夷。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-006",
+   "章": "TS-21",
+   "原断": "\"此造干透两杀，支全杀局，所喜戊土原神透出，是以化杀；寅木本要破甲印，尤喜会火，反培土之根源，巧借栽培， 。至己未运中，科甲连登；庚申辛酉，帮身有情，驰名宦海 ,裕后光前后。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-007",
+   "章": "TS-21",
+   "原断": "\"此造干透三癸，支逢两亥，乘权秉令。喜其无金，两印拱局，生化不悖情而纯粹，辛酉庚申运中，蹭蹬功名，刑耗并见，已未交运，干制杀，支会印，功名层叠而上；接行戊午、丁巳、丙运，仕至观察，名利双辉。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-009",
+   "章": "TS-21",
+   "原断": "\"此造甲木生辰，虽有余气，但庚金并透，通根斫伐，最喜寅时禄旺，更妙丙火独透，制杀扶身。午运暗会火局，中乡榜；甲申乙酉杀逢禄旺，刑耗多端；直至丙戌运，选知县。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-010",
+   "章": "TS-21",
+   "原断": "\"此造年月两逢壬子，杀势猖狂。喜而日时坐戌，通根身库，更妙戊土透出，足以砥定汪洋，尤羡运走东南，扶身抑杀。至乙卯运中，水临绝，火逢生，鹿鸣宴罢琼林宴，桂花香过杏花香，仕至郡守。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-011",
+   "章": "TS-21",
+   "原断": "\"此造两杀当权临旺，原可畏也。喜赖年干壬水临申，足以制杀；更妙无木，则水不泄，火无助。申运金水得助，发轫宫墙；酉运支类西方，早充观国之光，高豫南宫之选；后运金水，体用皆宜，由署郎出为郡守。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-014",
+   "章": "TS-21",
+   "原断": "\"此造日主虽坐旺刃，生于亥月，究竟休囚；五行无木，壬癸并透，支逢生旺，各立门户。喜其合去癸水，不致混也；更妙运走东南木火，乡榜出身，宠赐传来紫闼，承宣协佐黄堂。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-015",
+   "章": "TS-21",
+   "原断": "\"丙戌日元，生于辰时，冲去库根，壬癸并透。喜其戊合，去官留杀；更喜年逢刃助，火虚有焰；更妙无金，稍胜前造。科甲出身，宿映台垣，重藉旬宣之职，猷分禹服，特隆锁钥之权。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-016",
+   "章": "TS-21",
+   "原断": "\"此造日月皆丁未，时杀无根，喜其壬水官星助杀，不宜合也。幸而壬水坐申，合而不化，申金为用，更妙运走西北金水，助起官杀，乡榜出身，仕榜连登，由县令而迁司马，位跻黄堂。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-017",
+   "章": "TS-21",
+   "原断": "\"戊土生于巳月，日主未尝不旺，然地支两辰，木之余气亦足。喜其合杀留官，官星坐禄，更妙运途生化不悖。所以早登云路，掌典籍而知制诰，陪待从而应传宣也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-018",
+   "章": "TS-21",
+   "原断": "\"此造春金虽不当令，喜其坐禄逢印，弱中变旺；丙辛一合，丁火独清，不但去杀，而且去劫，财无劫夺，官有生扶。尤妙运走东南木火，所以早遂表钱之选，兆人镜之芙蓉，作春官之桃李也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-019",
+   "章": "TS-21",
+   "原断": "\"乙亥日元，坐下逢生，又月令建禄归垣，足以用财。喜丙辛金弱，而去乙庚，木旺不从。乡榜出身，至丙申丁酉，火盖天干，未能显秩；究竟方金地，亦足以琴堂解愠，花院征歌也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-020",
+   "章": "TS-21",
+   "原断": "\"此造旺杀逢财，喜其合也。妙在癸水临旺，合而不化，则有情戊土，不抗壬水也。合而化，则无情化火，仍生土也。由此以推，运走东方木地，早遂青云之志；运走北方水地，去财护印，翔步天衢，置身日舍也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-022",
+   "章": "TS-21",
+   "原断": "\"此造官遇长生，杀逢禄旺，巳亥虽冲破印，喜印木仍能生火，寅运合亥，化木生印，连登甲榜。庚辰辛巳制官服煞，失幡皂盖，出守大郡，名利两优。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-023",
+   "章": "TS-21",
+   "原断": "\"此造杀逢生，官得禄，喜其秋金秉令，更妙辰土泄火生金，不失中和之象；尤喜运走北方水地。庚子运冲去官根，鹿鸣方宴饮，雁塔又题名；辛丑壬寅运，横琴而歌解愠，游刃而赋烹鲜。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-024",
+   "章": "TS-21",
+   "原断": "\"此造官杀并旺当令，喜日坐长生，时逢禄旺，足以敌官挡杀。坐下印绶，引通财杀之气，运走西北金水之乡。所以少年科甲，裕经纶于管库，人推黼黻之工，乘抚宇于催科，世让文章之焕。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-026",
+   "章": "TS-21",
+   "原断": "\"此亦一杀逢四制，所不及前造者，无亥卯之会也。虽早采芹香，以致蹭蹬秋闱纳捐瞩，仁路亦不能通达。喜时杀透露，行甲午运，无化土之患，然犹刑耗多端，而己身无咎。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-027",
+   "章": "TS-21",
+   "原断": "\"此杀逢四制，柱中印虽不见，喜其杀透食藏，通根身库。总之夏火当权，水无金滋。至酉运，合去辰土，财星滋杀，发甲点中书；庚运仁版连登，入参军机；戌运，燥土冲动壬水之根，又逢戊土透出，紧制壬水，不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-028",
+   "章": "TS-21",
+   "原断": "\"此造五杀逢五制，土虽当权，木亦雄壮，幸日主两坐库根，又得比肩匡扶。壬申运，日主逢生，冲去寅木，名登桂籍，雁塔高标；接连癸酉二十年，由县令履黄堂。名利裕如。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-21-029",
+   "章": "TS-21",
+   "原断": "\"此两杀逢四制，幸春木得时乘令，克不尽绝。至午运，补土之不足，去金之有余，登科擢县令：至甲申支，又逢食制，死于军功。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-21-01:杀即官、官即杀（以身旺身弱分）",
+    "RTQ-RULE-TS-21-02:日主甚强虽无制不为杀困；正官相杂但无根亦随杀行",
+    "RTQ-RULE-TS-21-03:去官不过两端，用食用伤皆可",
+    "RTQ-RULE-TS-21-04:合杀总为美事，合来合去宜清",
+    "RTQ-RULE-TS-21-05:独杀乘权无制伏，职居清要",
+    "RTQ-RULE-TS-21-06:众杀有制主通根，身掌权衡",
+    "RTQ-RULE-TS-21-07:杀生印生身，龙墀高步",
+    "RTQ-RULE-TS-21-08:身任财而财滋杀，雁塔题名"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-002",
+   "章": "TS-22",
+   "原断": "\"此土金伤官重叠，喜其四柱无财，纯清气象。初运木火体用皆宜，所以壮岁首登龙虎榜，少年身到凤凰池。惜中运癸巳壬辰，金生火克，所以生平志节从何诉，半世勤劳只自怜。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-003",
+   "章": "TS-22",
+   "原断": "\"此金水伤官当令，喜支藏暖土，足以砥定中流。因时财为病，兼之初运水木，以致书香不继；至三旬外，运逢火土，异路出身，仕至州牧；午运衰神冲旺，台省几时无谪宦，郊亭今日倍离愁。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-004",
+   "章": "TS-22",
+   "原断": "\"此木火伤官，印绶通奶禄支，格局未尝不美。虽嫌财星坏屯，而丑辰皆湿土，能蓄水晦火。惜乎运途无水，以致一介寒儒，至申运火绝水生，名列泮宫，后九赴秋闱不捷。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-006",
+   "章": "TS-22",
+   "原断": "\"此水木伤官，日主坐长生，年支禄旺，日主不弱 ，足以用巳火之财。嫌其中运金水，半生碌碌风霜，起倒万状。至戊运，紧制亥水之劫，合起卯木化财，骤然发财数万；至酉冲破伤官，生助劫印，不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-007",
+   "章": "TS-22",
+   "原断": "\"此土金伤官，日主禄旺，劫印重逢，一点财星，秋水通源。子赖酉生，酉伏子护，遗业小康；甲子乙丑二十年，制化 皆宜，自创数万；至丙寅运，生助火土，克泄金水，不禄。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-008",
+   "章": "TS-22",
+   "原断": "\"此金水伤官，四柱比劫，虽用寅木之财，却喜亥水，泄金生木，使比劫无争夺之风，又得亥解申冲。若无亥水，一生起倒无宁，终成画饼。亥水者，生财之福神也。交甲寅乙卯，白手成家致富；后行火运，战克不静，财星泄气，无甚生色；至巳运，四孟冲，劫又逢生，不",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-010",
+   "章": "TS-22",
+   "原断": "\"此土金伤官，支类西方，金气太重，以劫为用。喜其当头克癸，故书香继志  ；更妙运走南方火地，拔贡出身，由县令而迁州牧，荐莅黄堂。一生逢凶化吉，宦海无波也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-011",
+   "章": "TS-22",
+   "原断": "\"此水木伤官，喜其无财，故继志书香，嫌其地支寅亥化木，伤官太重，难遂青云。辛运入泮，亥运补廪，庚戌加 捐出仕。己酉戊申二十年土金，生化不悖，仕至别驾，宦资丰厚。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-012",
+   "章": "TS-22",
+   "原断": "\"此四柱伤官，若生丑戌月，为从儿格，甸利皆遂。生于未月，火有余气，必以未中丁火为用。惜运走西北金水之地，以致破败祖业；至癸亥运，贫乏无聊，削发为僧。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-013",
+   "章": "TS-22",
+   "原断": "\"此亦伤官用劫，嫌其辰为湿土，生金拱水，未足帮身；更嫌运走西北金水之地，以致一败如灰，不成家室。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-015",
+   "章": "TS-22",
+   "原断": "\"癸水生于寅月，正水木伤官。地支印星并旺，酉丑拱金，必以寅木为用，才能有余。乙亥运，木逢生旺，中乡榜；甲戌癸运，出仕县令；酉运支逢三酉，木嫩金多，诖误落职。前造与此造皆因少火，有病无药之故，若有火虽行金地，则无大患矣。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-016",
+   "章": "TS-22",
+   "原断": "\"甲木生于午月，木火伤官。年月两干，土金无根，置之不用；地支两卯一寅，日元强，必以丁火为用，故人权谋异众。丁卯运，入泮 登科，仕县令；丙寅运，克尽庚金，宦资大丰；乙丑合庚，晦火生金，落职。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-017",
+   "章": "TS-22",
+   "原断": "\"丙日未月，火土伤官。四柱无金，子水枯干，未土为用。第嫌乙木并透根深，功名难遂。初运丁酉丙申，制化乙木，财喜称心；戊戌十年，熙熙攘攘，日炽日昌；己运土无根，木回克，刑耗并见；一交亥运，木得生火，逢劫，得恶病而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-019",
+   "章": "TS-22",
+   "原断": "\"壬水生于卯月，水木伤官。喜其官印通根，年支逢财，伤官有制有化，日元生旺，足以用官。巳运  ，官星临旺，采泮水之芹，折蟾宫之桂；壬午癸未，南方火地，出宰名区，莺迁州牧；甲申乙酉金得地，木临绝，虽退归，而安享琴书，其乐自如也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-020",
+   "章": "TS-22",
+   "原断": "\"壬水生于卯月 ，水木伤官，天干两辛，支逢辰酉，益水之源，官之根固，伤之荫泄，必以己土官星为用。己丑运，采芹食廪；戊子虽然蹭蹬秋闱，而家业日增；丁运亦无大患；至亥运会木局，伤官肆逞。刑耗并见而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-021",
+   "章": "TS-22",
+   "原断": "\"丙午日元，支类南方，未土秉令，己土透出，火土伤官，藏财受劫，无官则财无存，无财则官亦无根；况火焰土燥，官星并透，以官为用。运至火土，破耗刑丧；乙卯甲寅运，虽能生火，究竟制伤卫官，大获财利，纳粟出仕；癸丑壬子运，由佐贰而升县令，名利两全。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-023",
+   "章": "TS-22",
+   "原断": "\"六水乘权，其势泛溢，全赖卯木泄其精英。初交水运  ，仍得生助木神，平宁无咎；甲寅乙卯，正得用神之宜，采芹食禀，丁财并益；一交丙辰，群比争财，三子克二，夫妇皆亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-024",
+   "章": "TS-22",
+   "原断": "\"此天干皆水，支逢旺刃，喜其支合卯辰，精英吐秀，所以书香早遂。但木之原神不透，未免蹭蹬秋闱；更嫌运逢火地，犹恐寿元不永。交丙运庚午年，水火交战而亡。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-025",
+   "章": "TS-22",
+   "原断": "\"此重重火土，最喜酉时，伤官透露，泄其菁华。三旬之前，运走火土，蹭蹬芸窗，一交庚申，云程直上。及辛酉壬戌癸亥四十载，体用合宜，由署郎出为巡使，从藩臬而转封疆，宦海无波。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-026",
+   "章": "TS-22",
+   "原断": "\"此火土当权，乙木无根，以辛金为用。辛丑年入泮，后因运程不合，屡困秋闱。至丑运暗拱金局，科甲连登；丙子乙亥，地支之水，本可去火，天干木火不合，所以仕途蹭蹬，未能显秩耳。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-027",
+   "章": "TS-22",
+   "原断": "\"此与前造只换一辛字，八字不及前造，而运途却胜于前，亦以辛金为用，非官印论也。丁丑年湿土生金晦火，又全会金局，发甲入词林，盖运在辛丑，正岁运皆宜也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-22-028",
+   "章": "TS-22",
+   "原断": "\"此造土荣夏令，金绝火生，四柱水木全无， 最喜金透通根。惜乎运走东方，生火克金，不但功名增蹬，而且财源鲜聚。交辛丑运，年逢戊辰，晦火生金，食神喜劫地，秋闱得意，名利裕如。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-22-01:伤官五种用法总纲（用印／用财／用劫／用伤／用官）",
+    "RTQ-RULE-TS-22-02:伤官用财（日主旺伤官亦旺宜用财；有比劫可见官，无比劫",
+    "RTQ-RULE-TS-22-03:伤官用印（日主弱伤官旺宜用印，可见官不可见财）",
+    "RTQ-RULE-TS-22-04:伤官用劫（日主弱伤官旺无印绶宜用比劫，喜见劫印忌见财",
+    "RTQ-RULE-TS-22-05:伤官用伤（日主旺无财官宜用伤官，喜见财伤忌见官印）",
+    "RTQ-RULE-TS-22-06:伤官用官（日主旺比劫多财星衰伤官轻宜用官，喜见财官忌",
+    "RTQ-RULE-TS-22-07:「伤官见官为祸百端」之由，与有印则无祸",
+    "RTQ-RULE-TS-22-08:伤官各用之行运喜忌"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-24-001",
+   "章": "TS-24",
+   "原断": "\"戊戌日元，生于辰月巳时，木退气，土乘权，印绶重逢。用官则被庚金合坏，用食则官又不从化，而火又克金，无奈何而用财，又有巳时遥冲，又不当令；若邀庚金生助，贪合忘生，且遥隔无情，所以起倒不一，幸而财官尚有余气，至乙亥运，补起财官，遂成小康。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-24-01:浊者四柱混杂之谓（浊之总纲）",
+    "RTQ-RULE-TS-24-02:宁使清中浊，不可清中枯",
+    "RTQ-RULE-TS-24-03:浊遇行运得所扫除浊气亦有起发之机",
+    "RTQ-RULE-TS-24-04:清枯之义：日主枯者非贫即夭，用神枯者非贫即孤",
+    "RTQ-RULE-TS-24-N01:清中枯（偏枯无气）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-24-002",
+   "章": "TS-24",
+   "原断": "「火长夏令，原属旺论，然时在季夏，火气稍退，兼之重叠伤官泄气，丑乃湿土，能晦丙火之光，以旺变弱。浊气当权，清气失势，兼之先行三十年火土运，半生起倒多端。至乙卯甲寅，木蔬厚土，扫除浊气，生扶日元，卫护官星，左图右史，财茂业成。」（「木蔬厚土」",
+   "候选规则": [
+    "RTQ-RULE-TS-24-01:浊者四柱混杂之谓（浊之总纲）",
+    "RTQ-RULE-TS-24-02:宁使清中浊，不可清中枯",
+    "RTQ-RULE-TS-24-03:浊遇行运得所扫除浊气亦有起发之机",
+    "RTQ-RULE-TS-24-04:清枯之义：日主枯者非贫即夭，用神枯者非贫即孤",
+    "RTQ-RULE-TS-24-N01:清中枯（偏枯无气）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-24-003",
+   "章": "TS-24",
+   "原断": "\"此造大略观之，财生官，官生印，印生身，似乎清美，无如午未南方，火烈土焦，能脆金，不能生金；且木从火势，又坏印绶，无生化之情，非清枯而何？更嫌运走东方，一生未遂，所谓\"明月清风谁与共，高山流水少知音\"也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-24-01:浊者四柱混杂之谓（浊之总纲）",
+    "RTQ-RULE-TS-24-02:宁使清中浊，不可清中枯",
+    "RTQ-RULE-TS-24-03:浊遇行运得所扫除浊气亦有起发之机",
+    "RTQ-RULE-TS-24-04:清枯之义：日主枯者非贫即夭，用神枯者非贫即孤",
+    "RTQ-RULE-TS-24-N01:清中枯（偏枯无气）"
+   ]
+  },
+  {
+   "CASE_ID": "RTQ-CASE-TS-27-002",
+   "章": "TS-27",
+   "原断": "\"庚金生于七月，支类土金，旺之极矣，壬水坐戌逢戊，枭神夺尽，时透丙火，支 拱寅戌，必以丙火为用。惜运走四十载土金水地，所以五旬之前，一事无成：至甲寅 运克制枭神，生起丙火，及乙卯二十年，财发巨万，所谓蒲柳望秋而凋，松柏经冬而 茂也。\"",
+   "候选规则": [
+    "RTQ-RULE-TS-27-01:刚柔之道，阴阳健顺而已",
+    "RTQ-RULE-TS-27-02:得时当令无克制→用食神顺其气势泄其菁英（以无入有）",
+    "RTQ-RULE-TS-27-03:失时无气无生助→用食神制杀，杀得制则生印（向实寻虚）",
+    "RTQ-RULE-TS-27-04:泄克引从四字之妙",
+    "RTQ-RULE-TS-27-05:庚金七月必要壬水、乙木八月必要丁火，亦是死法",
+    "RTQ-RULE-TS-27-06:刚柔命例（枭神夺食／丙火为用／丑未冲／藤萝系甲）",
+    "RTQ-RULE-TS-27-N01:“庚金七月必壬水、乙木八月必丁火”之死法（执一而论）"
+   ]
+  }
+ ]
+}
