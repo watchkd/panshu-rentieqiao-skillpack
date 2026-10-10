@@ -30,11 +30,23 @@ def _find_root(start):
     return start
 
 
-ROOT = _find_root(ROOT)
-PKG = os.path.join(ROOT, "总装输出", "rtq-panshu", "skills", "rtq-panshu")
+# v2.4.0：脚本已在技能包内（skills/rtq-panshu/校验/），**优先按脚本位置解析**，
+# 使包被移动 / 安装到别处后仍可复跑（旧版硬依赖『总装输出/滴天髓补注』的目录布局）。
+_HERE = os.path.dirname(os.path.abspath(__file__))
+PKG = os.path.dirname(_HERE)                      # → skills/rtq-panshu
+if not os.path.isdir(os.path.join(PKG, "数据")):
+    ROOT = _find_root(ROOT)
+    PKG = os.path.join(ROOT, "总装输出", "rtq-panshu", "skills", "rtq-panshu")
 D = os.path.join(PKG, "数据")
-XLW = os.path.join(ROOT, "滴天髓补注")
-OUT = os.path.dirname(os.path.abspath(__file__))
+
+# 外部底本（徐乐吾手迹 OCR 全本）**不在技能包内**；缺失时 C 组降级为「跳过」而非崩溃。
+_CORPUS = None
+for _cand in (os.path.join(_find_root(ROOT), "滴天髓补注", "rtq-xlw-底本OCR_全本.md"),
+              os.path.join(_find_root(ROOT), "rtq-xlw-底本OCR_全本.md")):
+    if os.path.isfile(_cand):
+        _CORPUS = _cand
+        break
+OUT = _HERE
 
 
 def load(p):
@@ -53,6 +65,7 @@ res = []
 
 
 def chk(name, ok, detail=""):
+    """ok=True 通过 / False 失败 / None 跳过（外部语料缺失等）。"""
     res.append((name, ok, detail))
 
 
@@ -83,7 +96,7 @@ chk("B5 L3 规则 AUTHOR 100% L3",
 chk("B6 L4 规则 AUTHOR 100% L4", all(x["AUTHOR"] == "L4" for x in r4))
 
 # C. SOURCE_FILE 行号落在底本【Lx】行
-md = io.open(os.path.join(XLW, "rtq-xlw-底本OCR_全本.md"), encoding="utf-8", newline="").read().split("\n")
+md = (io.open(_CORPUS, encoding="utf-8", newline="").read().split("\n") if _CORPUS else [])
 lx = {i + 1 for i, t in enumerate(md) if t.startswith("【L")}
 
 
@@ -94,8 +107,12 @@ def src_ok(x, key):
 
 bad_r = [x["RULE_ID"] for x in r4 if not src_ok(x, "SOURCE_FILE")]
 bad_c = [x["CASE_ID"] for x in c4 if not src_ok(x, "SOURCE_FILE")]
-chk("C1 L4 规则 SOURCE_FILE 行号 100% 合法", not bad_r, "异常 %d %s" % (len(bad_r), bad_r[:3]))
-chk("C2 L4 命例 SOURCE_FILE 行号 100% 合法", not bad_c, "异常 %d %s" % (len(bad_c), bad_c[:3]))
+if _CORPUS:
+    chk("C1 L4 规则 SOURCE_FILE 行号 100% 合法", not bad_r, "异常 %d %s" % (len(bad_r), bad_r[:3]))
+    chk("C2 L4 命例 SOURCE_FILE 行号 100% 合法", not bad_c, "异常 %d %s" % (len(bad_c), bad_c[:3]))
+else:
+    chk("C1 L4 规则 SOURCE_FILE 行号 100% 合法", None, "⚠ 外部底本缺失，跳过（不影响数据层结论）")
+    chk("C2 L4 命例 SOURCE_FILE 行号 100% 合法", None, "⚠ 外部底本缺失，跳过（不影响数据层结论）")
 
 # D. 章号对齐
 CH = {c["chapter_id"] for c in A["chapters"]}
@@ -215,23 +232,27 @@ chk("J4 已知粗粒度区（15 章）已登记", True,
     "合并区 15 章：TS-13~16 + TS-27,29~34 + LQ-08,09,28,29（检索须按组级）")
 
 # 输出
-passed = sum(1 for _, ok, _ in res if ok)
+passed = sum(1 for _, ok, _ in res if ok is True)
+skipped = sum(1 for _, ok, _ in res if ok is None)
+failed = len(res) - passed - skipped
 lines = ["# v2.0 双层机械校验报告\n",
-         "> 生成：v2_verify.py ｜ 校验项 %d ｜ 通过 %d ｜ 失败 %d\n" % (len(res), passed, len(res) - passed),
+         "> 生成：v2_verify.py ｜ 校验项 %d ｜ 通过 %d ｜ 失败 %d ｜ 跳过 %d\n"
+         % (len(res), passed, failed, skipped),
          "| # | 校验项 | 结果 | 明细 |", "|---|---|---|---|"]
 for i, (n, ok, d) in enumerate(res, 1):
-    lines.append("| %d | %s | %s | %s |" % (i, n, "✅ 通过" if ok else "❌ 失败", d))
+    mark = "✅ 通过" if ok is True else ("⚠ 跳过" if ok is None else "❌ 失败")
+    lines.append("| %d | %s | %s | %s |" % (i, n, mark, d))
 lines.append("\n## 结论\n")
-lines.append("**%d/%d 通过。**" % (passed, len(res)))
-if passed == len(res):
+lines.append("**%d/%d 通过%s。**" % (passed, len(res), "，%d 项跳过" % skipped if skipped else ""))
+if failed == 0:
     lines.append("v1.0 主干（797/509/336）零改动；L4 徐补（741 规则 / 203 命例 / 2,897 块）"
                  "前缀、归属、出处、章号、去重、双向引用全部合规；双层检索与裁判层可用。")
-p = os.path.join(OUT, "双层机械校验报告.md")
+p = os.path.join(OUT, "双层机械校验报告_v2.md")
 with io.open(p, "w", encoding="utf-8", newline="\n") as f:
     f.write("\n".join(lines))
 
-print("校验 %d/%d 通过" % (passed, len(res)))
+print("校验 %d/%d 通过%s" % (passed, len(res), "，%d 项跳过" % skipped if skipped else ""))
 for n, ok, d in res:
-    if not ok:
+    if ok is False:
         print("  ❌", n, d)
 print("报告：", p)

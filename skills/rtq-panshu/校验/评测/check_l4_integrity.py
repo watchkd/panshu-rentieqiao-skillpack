@@ -15,7 +15,11 @@ L4 层是否仍处于已验证的完好状态，防止章重建/挂载时破坏�
 """
 import json, re, sys, os
 
-base = sys.argv[1] if len(sys.argv) > 1 else r"C:\Users\Administrator\Desktop\任铁樵\总装输出\rtq-panshu\skills\rtq-panshu\数据"
+# v2.4.0：默认路径改为相对脚本解析（本脚本在 校验/评测/，技能根为其上两级），
+# 使包被移动 / 安装到别处后仍可复跑（旧版硬编码 Desktop 绝对路径，移动即崩）。
+_DEFAULT_BASE = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "数据")
+base = sys.argv[1] if len(sys.argv) > 1 else _DEFAULT_BASE
 P = os.path.join(base, "归属库_五层v2.json")
 d = json.load(open(P, encoding="utf-8"))
 ch = d["chapters"]

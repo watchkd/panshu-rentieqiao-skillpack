@@ -19,7 +19,10 @@ import json, re, sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
 from wxmap import GAN_WX, ZHI_WX, WX_SET, gan_to_wx, stem_branch_wx
 
-CP = r"C:\Users\Administrator\Desktop\任铁樵\总装输出\rtq-panshu\skills\rtq-panshu\数据\命例库_712_双层.json"
+# v2.4.0：路径改为相对脚本解析（本脚本在 校验/评测/，技能根为其上两级），
+# 使包被移动 / 安装到别处后仍可重跑（旧版硬编码 Desktop 绝对路径）。
+SKILL_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+CP = os.path.join(SKILL_ROOT, "数据", "命例库_712_双层.json")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "命例多维索引.json")
 
 G = set(GAN_WX)
@@ -161,7 +164,10 @@ def main():
         if t:
             idx[c["CASE_ID"]] = t
             for k in t: stats[k] = stats.get(k,0)+1
-    json.dump({"meta":{"来源":"判断依据+任铁樵原断+最终结论 词面抽取","生成":__file__,"n":len(idx),"维度统计":stats},
+    # v2.4.0：meta 里记**相对路径**，不记绝对路径——否则索引会带上机器专属路径，
+    # 一换机器就「漂移」（每次重建都 diff 出假差异）。
+    _rel = os.path.relpath(os.path.abspath(__file__), SKILL_ROOT).replace("\\", "/")
+    json.dump({"meta":{"来源":"判断依据+任铁樵原断+最终结论 词面抽取","生成":_rel,"n":len(idx),"维度统计":stats},
                "entries": idx},
               open(OUT,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
     print("多维索引已生成 ->", OUT, "命中命例", len(idx),"/",len(l3))

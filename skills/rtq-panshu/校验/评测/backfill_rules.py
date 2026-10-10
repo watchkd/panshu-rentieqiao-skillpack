@@ -7,9 +7,11 @@
 """
 import json, collections, re, os, sys
 
-RP = r"C:\Users\Administrator\Desktop\任铁樵\总装输出\rtq-panshu\skills\rtq-panshu\数据\规则库_1538_双层.json"
-CP = r"C:\Users\Administrator\Desktop\任铁樵\总装输出\rtq-panshu\skills\rtq-panshu\数据\命例库_712_双层.json"
-OUT = r"C:\Users\Administrator\Desktop\任铁樵\总装输出\rtq-panshu\skills\rtq-panshu\校验\评测\所用规则_回填.json"
+# v2.4.0：路径改为相对脚本解析（本脚本在 校验/评测/，技能根为其上两级）。
+_SKILL_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+RP = os.path.join(_SKILL_ROOT, "数据", "规则库_1538_双层.json")
+CP = os.path.join(_SKILL_ROOT, "数据", "命例库_712_双层.json")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "所用规则_回填.json")
 
 def bigrams(s):
     s = re.sub(r"[\s，。；、？！：“”‘’（）《》·\-0-9A-Za-z]", "", s or "")

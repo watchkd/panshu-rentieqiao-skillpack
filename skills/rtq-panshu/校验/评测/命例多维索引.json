@@ -1,7 +1,7 @@
 {
  "meta": {
   "来源": "判断依据+任铁樵原断+最终结论 词面抽取",
-  "生成": "C:\\Users\\Administrator\\Desktop\\任铁樵\\总装输出\\rtq-panshu\\skills\\rtq-panshu\\校验\\评测\\build_index.py",
+  "生成": "校验/评测/build_index.py",
   "n": 494,
   "维度统计": {
    "日主": 461,
